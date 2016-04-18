@@ -6,7 +6,7 @@ RUN yum -y install which Xvfb libXrender libXtst && yum -y update; yum clean all
 
 RUN ["adduser", "-m", "-p", "gatekeeper", "gatekeeper"]
 
-COPY tws-stable-standalone-linux-x64.sh /home/gatekeeper/
+COPY tws-stable-standalone-linux-x64.sh config/IBController /home/gatekeeper/
 COPY IBController /opt/IBController/
 
 RUN ["chmod", "-R", "777", "/home/gatekeeper/tws-stable-standalone-linux-x64.sh", "/opt/IBController/"]
@@ -21,4 +21,4 @@ RUN mkdir /home/gatekeeper/IBController && cp /opt/IBController/IBController.ini
 
 RUN ["./tws-stable-standalone-linux-x64.sh", "-q", "-Dinstall4j.keepLog=true"]
 
-RUN ["rm", "tws-stable-standalone-linux-x64.sh"]
+#RUN ["rm", "tws-stable-standalone-linux-x64.sh"]
