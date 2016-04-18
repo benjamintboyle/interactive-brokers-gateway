@@ -5,20 +5,21 @@ RUN yum -y install which Xvfb libXrender libXtst && yum -y update; yum clean all
 #RUN apk add --no-cache xvfb
 
 RUN ["adduser", "-m", "-p", "gatekeeper", "gatekeeper"]
+WORKDIR /home/gatekeeper/
 
-COPY tws-stable-standalone-linux-x64.sh config/IBController /home/gatekeeper/
-COPY IBController /opt/IBController/
-
-RUN ["chmod", "-R", "777", "/home/gatekeeper/tws-stable-standalone-linux-x64.sh", "/opt/IBController/"]
+COPY IBController/ /opt/IBController/
+COPY tws-stable-standalone-linux-x64.sh config/ /home/gatekeeper/
+RUN chmod -R 755 /opt/IBController/ \
+      && chown -R gatekeeper:gatekeeper /home/gatekeeper/IBController/ tws-stable-standalone-linux-x64.sh \
+      && chmod 755 /home/gatekeeper/IBController/locales.jar \
+      && chmod 755 /home/gatekeeper/IBController/dggcnxaymn/language.jar \
+      && chmod -R 400 /home/gatekeeper/IBController/IBController.ini
 
 USER gatekeeper
-WORKDIR /home/gatekeeper/
+RUN /home/gatekeeper/tws-stable-standalone-linux-x64.sh -q \
+      && rm tws-stable-standalone-linux-x64.sh
 
 #RUN Xvfb :99 &
 #RUN export DISPLAY=:99
 
-RUN mkdir /home/gatekeeper/IBController && cp /opt/IBController/IBController.ini /home/gatekeeper/IBController/
-
-RUN ["./tws-stable-standalone-linux-x64.sh", "-q", "-Dinstall4j.keepLog=true"]
-
-#RUN ["rm", "tws-stable-standalone-linux-x64.sh"]
+#CMD ["/opt/IBController/IBControllerGatewayStart.sh"]
