@@ -8,7 +8,7 @@
 		<ArString varName="orderRefList"/>
 		<orderTradeNotificationType>COMPLETED_ORDER</orderTradeNotificationType>
 	</UISettings>
-	<SystemSettings varName="system" exportTrades="false" autoExportEnabled="false" exportDir="/home/bboyle/IBController/" executionSummaryExportDir="/home/bboyle/IBController/" autoLogoffTime="11:45,PM" autoRestartEnabled="false" autoExportDirectory="/home/bboyle/IBController/" autoExportInt="0" autoExportExt="false" autoExportId="false" autoExportVolLink="false" autoExportSeparator="," rfqTimeout="0" safety="false" lastReadNumber="-1" ccpSocketBufferSizes="0" apiSocketBufferSizes="0" warnOnExitWithPos="false" warnOnExit="true" enableChartToolTip="false" redirectChartToolTip="false" twoPendingPages="false" exportSymbol="100" specialClearing="false" exportLocalTimezone="false" autoSaveSettings="true" saveWatchlistsToCloud="true" dynamicDataCalc="false" autoLockTimeout="0" aggregateGroupLimit="10">
+	<SystemSettings varName="system" exportTrades="false" autoExportEnabled="false" exportDir="/home/gatekeeper/IBController/" executionSummaryExportDir="/home/gatekeeper/IBController/" autoLogoffTime="11:45,PM" autoRestartEnabled="false" autoExportDirectory="/home/gatekeeper/IBController/" autoExportInt="0" autoExportExt="false" autoExportId="false" autoExportVolLink="false" autoExportSeparator="," rfqTimeout="0" safety="false" lastReadNumber="-1" ccpSocketBufferSizes="0" apiSocketBufferSizes="0" warnOnExitWithPos="false" warnOnExit="true" enableChartToolTip="false" redirectChartToolTip="false" twoPendingPages="false" exportSymbol="100" specialClearing="false" exportLocalTimezone="false" autoSaveSettings="true" saveWatchlistsToCloud="true" dynamicDataCalc="false" autoLockTimeout="0" aggregateGroupLimit="10">
 		<javaBinaryLocation></javaBinaryLocation>
 		<autoExportFile></autoExportFile>
 		<autoExportStart></autoExportStart>
@@ -100,7 +100,7 @@
 		<report4></report4>
 		<reportAutosave></reportAutosave>
 		<betaCalculationParamsRaw></betaCalculationParamsRaw>
-		<FileChooserSettings varName="portfolioChooserSettings" directory="/home/bboyle/IBController/dggcnxaymn/">
+		<FileChooserSettings varName="portfolioChooserSettings" directory="/home/gatekeeper/IBController/dggcnxaymn/">
 			<viewType>LIST</viewType>
 		</FileChooserSettings>
 		<optModEdConfig></optModEdConfig>
@@ -114,7 +114,7 @@
 		<mibsxSector></mibsxSector>
 		<mibsxFixedSector></mibsxFixedSector>
 	</MibsxSettings>
-	<ExportSettings varName="exportSettings" exportSymbol="100" exportLocalTimezone="false" exportExt="false" exportId="false" exportVolLink="false" exportDirectory="/home/bboyle/IBController/" exportSeparator=",">
+	<ExportSettings varName="exportSettings" exportSymbol="100" exportLocalTimezone="false" exportExt="false" exportId="false" exportVolLink="false" exportDirectory="/home/gatekeeper/IBController/" exportSeparator=",">
 		<exportType>DEFAULT</exportType>
 		<ExecTableColumnMgr varName="execExportColumnMgr" fitColumnsToWindow="false">
 			<ExecTableColumnCollection varName="columns" isExportTradeReport="true" scaled="false">
@@ -174,7 +174,7 @@
 			</ExecTableColumnCollection>
 		</ExecTableColumnMgr>
 	</ExportSettings>
-	<ExportSettings varName="emailExportSettings" exportSymbol="100" exportLocalTimezone="false" exportExt="false" exportId="false" exportVolLink="false" exportDirectory="/home/bboyle/IBController/" exportSeparator=" ">
+	<ExportSettings varName="emailExportSettings" exportSymbol="100" exportLocalTimezone="false" exportExt="false" exportId="false" exportVolLink="false" exportDirectory="/home/gatekeeper/IBController/" exportSeparator=" ">
 		<exportType>DEFAULT</exportType>
 		<ExecTableColumnMgr varName="execExportColumnMgr" fitColumnsToWindow="false">
 			<ExecTableColumnCollection varName="columns" isExportTradeReport="true" scaled="false">
