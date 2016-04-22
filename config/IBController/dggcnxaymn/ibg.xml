@@ -88,6 +88,7 @@
 		<ListOfStrings varName="trustedIPAddresses">
 			<String>127.0.0.1</String>
 			<String>172.17.0.3</String>
+			<String>172.17.0.4</String>
 		</ListOfStrings>
 		<ListOfStrings varName="typesToSuppressMarketCap"/>
 		<compExchSeparator></compExchSeparator>
