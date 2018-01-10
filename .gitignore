@@ -1,0 +1,16 @@
+### Eclipse.gitignore
+.metadata
+bin/
+tmp/
+logs/
+*.tmp
+*.bak
+*.swp
+*~.nib
+.settings
+.classpath
+.project
+
+### Gradle.gitignore
+.gradle
+build/
