@@ -24,4 +24,4 @@ RUN /home/gatekeeper/ibgateway-stable-standalone-linux-x64.sh -q \
 
 # Script fails if not launched from this directory
 WORKDIR /opt/IBController/
-CMD xvfb-run ./IBControllerGatewayStart.sh -inline > /home/gatekeeper/IBController/IBControllerGatewayStart.sh.log
+CMD xvfb-run ./IBControllerGatewayStart.sh -inline > /home/gatekeeper/IBController/Output.log 2>&1
