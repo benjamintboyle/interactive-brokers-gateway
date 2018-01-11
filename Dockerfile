@@ -12,9 +12,9 @@ COPY IBController/ /opt/IBController/
 COPY ibgateway-stable-standalone-linux-x64.sh config/ /home/gatekeeper/
 RUN chmod -R 755 /opt/IBController/ \
       && chown -R gatekeeper:gatekeeper /home/gatekeeper/IBController/ /home/gatekeeper/ibgateway-stable-standalone-linux-x64.sh \
-      && chmod 755 /home/gatekeeper/IBController/locales.jar \
-      && chmod 755 /home/gatekeeper/IBController/dggcnxaymn/language.jar \
-      && chmod -R 400 /home/gatekeeper/IBController/IBController.ini
+      && chmod 755 /home/gatekeeper/ibgateway-stable-standalone-linux-x64.sh \
+      && chmod -R 755 /home/gatekeeper/IBController/ \
+      && chmod 400 /home/gatekeeper/IBController/IBController.ini
 
 # Install script fails if not launched from home directory
 USER gatekeeper
