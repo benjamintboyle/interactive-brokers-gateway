@@ -1,10 +1,8 @@
 FROM centos
-#FROM alpine
 
 RUN yum -y install which Xvfb libXrender libXtst less \
       && yum -y update \
       && yum clean all
-#RUN apk add --no-cache xvfb
 
 RUN ["adduser", "-m", "-p", "gatekeeper", "gatekeeper"]
 
