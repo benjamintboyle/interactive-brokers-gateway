@@ -88,7 +88,7 @@
 		<CompletedOrderBlinkType type="jsetting.CompletedOrderSystemCancelledBlinkType" varName="completedOrderBlinkType"/>
 		<activityEventScope>NORMAL</activityEventScope>
 	</OrderSettings>
-	<ApiSettings varName="api" dde="false" readOnlyApi="true" allowOnlyLocalhost="false" socketClient="false" autoOpenOrdDonwload="true" port="4002" includeFxPositions="true" includeContinuousUpdateChanges="true" sendMessagesInEnglish="false" sendMessagesTranslated="true" logLevel="2" useNegativeAutoRange="true" overridePrecautionaryConstraints="false" bypassBondWarning="false" bypassYtwWarning="false" bypassCalledBondWarning="false" bypassSameActionPairTradeWarning="false" masterClientID="-1" acceptLargeSize="false" showApiMsg="true" includeMktData="false" createApiMsgLogFile="false" showIBGConsole="false" aPINotAllowedShownAfterDenyAPI="false" slowBufferTimeout="30" syncAccounts="false" multichartNetDoNotShowTime="0" multichartDoNotShowTime="0" verifiedAppPortRangeStart="7000" verifiedAppPortRangeEnd="8000" timeOfVerifiedAppShutdown="0" portOfVerifiedAppShutdown="0">
+	<ApiSettings varName="api" dde="false" readOnlyApi="false" allowOnlyLocalhost="false" socketClient="false" autoOpenOrdDonwload="true" port="4002" includeFxPositions="true" includeContinuousUpdateChanges="true" sendMessagesInEnglish="false" sendMessagesTranslated="true" logLevel="2" useNegativeAutoRange="true" overridePrecautionaryConstraints="false" bypassBondWarning="false" bypassYtwWarning="false" bypassCalledBondWarning="false" bypassSameActionPairTradeWarning="false" masterClientID="-1" acceptLargeSize="false" showApiMsg="true" includeMktData="false" createApiMsgLogFile="false" showIBGConsole="false" aPINotAllowedShownAfterDenyAPI="false" slowBufferTimeout="30" syncAccounts="false" multichartNetDoNotShowTime="0" multichartDoNotShowTime="0" verifiedAppPortRangeStart="7000" verifiedAppPortRangeEnd="8000" timeOfVerifiedAppShutdown="0" portOfVerifiedAppShutdown="0">
 		<ListOfStrings varName="trustedIPAddresses">
 			<String>127.0.0.1</String>
 			<String>172.17.0.3</String>
@@ -250,25 +250,27 @@
 	</SmartRoutingSettings>
 	<MiscSettings varName="miscSettings" allMandatoryCapExchangesConfirmed="false" exportExchange="true" renameQuantityColumn="false" allowIBAway="false" modelAreUsed="false">
 		<portfolioUpdate></portfolioUpdate>
+		<ListOfLooseAccts varName="looseAccount"/>
+		<MapOfStrings varName="exchangeAccountsMap"/>
 		<MapOfStrings varName="hiddenMessageMap">
 			<Entry key="OrderInfoMessages" val=""/>
 			<Entry key="MessageIds" val="167=1|true|,237=0|true|,247=0|true|,253=0|true|,258=0|true|,360=0|true|,"/>
 		</MapOfStrings>
 	</MiscSettings>
 	<OrderDefaultNode varName="orderDefaultRoot">
-		<OrderDefault varName="element" side="0" useClosePositionSizeFirst="false" useCumulativeSizeForMarketDepth="true" preferSmart="false" useDefaultAmt="false" strategy="false" active="true" useRemainingTicketSize="true" defaultDisplaySizeTo50PercOfSize="false" defaultDestination="true" version="18" defSize="100" sizeInc="#" rfqSize="1000" orderOrigin="0" numOfTicks="0" cashQtyEstimateFactor="25" expandedStrategyLastUse="0" timestamp="-9223372036854775808" trailingOffset="1.0" hedgeOrderOffset="0.01" closeCurrencyOffset="0.01" rebalanceCashOffset="0.01" defaultAmt="0.0" relativeOffset="0.01" percentCheck="3" timeInForce="DAY" hedgeOrderType="1" orderType="2" ticketOrderType="1" closeCurrencyOrderType="1" rebalanceCashOrderType="1" bookTraderSizeMultipliers="1,2,3,5" universeID="ANY" trailingUnit="0" stopOffset="1.0" stopLimitOffset="3.0" stopLimitOffsetUnit="1">
+		<OrderDefault varName="element" side="0" useClosePositionSizeFirst="false" useCumulativeSizeForMarketDepth="true" preferSmart="false" useDefaultAmt="false" strategy="false" active="true" useRemainingTicketSize="true" defaultDisplaySizeTo50PercOfSize="false" defaultDestination="true" version="18" defSize="100" sizeInc="#" rfqSize="1000" orderOrigin="0" numOfTicks="0" cashQtyEstimateFactor="25" expandedStrategyLastUse="0" timestamp="-9223372036854775808" trailingOffset="1.0" hedgeOrderOffset="0.01" closeCurrencyOffset="0.01" rebalanceCashOffset="0.01" defaultAmt="0.0" relativeOffset="0.01" percentCheck="3" timeInForce="DAY" hedgeOrderType="1" totalValueCurrency="USD" orderType="2" ticketOrderType="1" closeCurrencyOrderType="1" rebalanceCashOrderType="1" bookTraderSizeMultipliers="1,2,3,5" universeID="ANY" trailingUnit="0" stopOffset="1.0" stopLimitOffset="3.0" stopLimitOffsetUnit="1">
 			<startTime></startTime>
 			<endTime></endTime>
 			<Attributes varName="attribs">
-				<TriggerMethod>
-					<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
-				</TriggerMethod>
+				<TouchedTrigger val="1.0" allowZero="false"/>
 				<CommissionPolicy>
 					<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 				</CommissionPolicy>
-				<OutsideRth val="false"/>
 				<OpenCloseAttrib val="O"/>
-				<TouchedTrigger val="1.0" allowZero="false"/>
+				<OutsideRth val="false"/>
+				<TriggerMethod>
+					<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
+				</TriggerMethod>
 			</Attributes>
 			<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 			<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -356,15 +358,15 @@
 					<startTime></startTime>
 					<endTime></endTime>
 					<Attributes varName="attribs">
-						<TriggerMethod>
-							<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
-						</TriggerMethod>
+						<TouchedTrigger val="1.0" allowZero="false"/>
 						<CommissionPolicy>
 							<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 						</CommissionPolicy>
-						<OutsideRth val="false"/>
 						<OpenCloseAttrib val="O"/>
-						<TouchedTrigger val="1.0" allowZero="false"/>
+						<OutsideRth val="false"/>
+						<TriggerMethod>
+							<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
+						</TriggerMethod>
 					</Attributes>
 					<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 					<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -453,14 +455,14 @@
 					<startTime></startTime>
 					<endTime></endTime>
 					<Attributes varName="attribs">
-						<TriggerMethod>
-							<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
-						</TriggerMethod>
+						<TouchedTrigger val="1.0" allowZero="false"/>
 						<CommissionPolicy>
 							<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 						</CommissionPolicy>
 						<OpenCloseAttrib val="C"/>
-						<TouchedTrigger val="1.0" allowZero="false"/>
+						<TriggerMethod>
+							<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
+						</TriggerMethod>
 					</Attributes>
 					<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 					<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -549,14 +551,14 @@
 					<startTime></startTime>
 					<endTime></endTime>
 					<Attributes varName="attribs">
-						<TriggerMethod>
-							<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
-						</TriggerMethod>
+						<TouchedTrigger val="1.0" allowZero="false"/>
 						<CommissionPolicy>
 							<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 						</CommissionPolicy>
 						<OpenCloseAttrib val="C"/>
-						<TouchedTrigger val="1.0" allowZero="false"/>
+						<TriggerMethod>
+							<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
+						</TriggerMethod>
 					</Attributes>
 					<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 					<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -645,14 +647,14 @@
 					<startTime></startTime>
 					<endTime></endTime>
 					<Attributes varName="attribs">
-						<TriggerMethod>
-							<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
-						</TriggerMethod>
+						<TouchedTrigger val="1.0" allowZero="false"/>
 						<CommissionPolicy>
 							<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 						</CommissionPolicy>
 						<OpenCloseAttrib val="C"/>
-						<TouchedTrigger val="1.0" allowZero="false"/>
+						<TriggerMethod>
+							<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
+						</TriggerMethod>
 					</Attributes>
 					<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 					<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -741,14 +743,14 @@
 					<startTime></startTime>
 					<endTime></endTime>
 					<Attributes varName="attribs">
-						<TriggerMethod>
-							<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
-						</TriggerMethod>
+						<TouchedTrigger val="1.0" allowZero="false"/>
 						<CommissionPolicy>
 							<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 						</CommissionPolicy>
 						<OpenCloseAttrib val="C"/>
-						<TouchedTrigger val="1.0" allowZero="false"/>
+						<TriggerMethod>
+							<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
+						</TriggerMethod>
 					</Attributes>
 					<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 					<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -837,14 +839,14 @@
 					<startTime></startTime>
 					<endTime></endTime>
 					<Attributes varName="attribs">
-						<TriggerMethod>
-							<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
-						</TriggerMethod>
+						<TouchedTrigger val="1.0" allowZero="false"/>
 						<CommissionPolicy>
 							<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 						</CommissionPolicy>
 						<OpenCloseAttrib val="C"/>
-						<TouchedTrigger val="1.0" allowZero="false"/>
+						<TriggerMethod>
+							<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
+						</TriggerMethod>
 					</Attributes>
 					<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 					<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -933,14 +935,14 @@
 					<startTime></startTime>
 					<endTime></endTime>
 					<Attributes varName="attribs">
-						<TriggerMethod>
-							<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
-						</TriggerMethod>
+						<TouchedTrigger val="1.0" allowZero="false"/>
 						<CommissionPolicy>
 							<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 						</CommissionPolicy>
 						<OpenCloseAttrib val="C"/>
-						<TouchedTrigger val="1.0" allowZero="false"/>
+						<TriggerMethod>
+							<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
+						</TriggerMethod>
 					</Attributes>
 					<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 					<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -1029,14 +1031,14 @@
 					<startTime></startTime>
 					<endTime></endTime>
 					<Attributes varName="attribs">
-						<TriggerMethod>
-							<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
-						</TriggerMethod>
+						<TouchedTrigger val="1.0" allowZero="false"/>
 						<CommissionPolicy>
 							<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 						</CommissionPolicy>
 						<OpenCloseAttrib val="C"/>
-						<TouchedTrigger val="1.0" allowZero="false"/>
+						<TriggerMethod>
+							<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
+						</TriggerMethod>
 					</Attributes>
 					<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 					<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -1125,14 +1127,14 @@
 					<startTime></startTime>
 					<endTime></endTime>
 					<Attributes varName="attribs">
-						<TriggerMethod>
-							<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
-						</TriggerMethod>
+						<TouchedTrigger val="1.0" allowZero="false"/>
 						<CommissionPolicy>
 							<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 						</CommissionPolicy>
 						<OpenCloseAttrib val="C"/>
-						<TouchedTrigger val="1.0" allowZero="false"/>
+						<TriggerMethod>
+							<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
+						</TriggerMethod>
 					</Attributes>
 					<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 					<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -1223,14 +1225,14 @@
 								<String>AUD</String>
 							</ArString>
 							<Attributes varName="attribs">
-								<TriggerMethod>
-									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
-								</TriggerMethod>
+								<TouchedTrigger val="1.0" allowZero="false"/>
 								<CommissionPolicy>
 									<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 								</CommissionPolicy>
 								<OpenCloseAttrib val="C"/>
-								<TouchedTrigger val="1.0" allowZero="false"/>
+								<TriggerMethod>
+									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
+								</TriggerMethod>
 							</Attributes>
 							<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 							<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -1322,14 +1324,14 @@
 								<String>CAD</String>
 							</ArString>
 							<Attributes varName="attribs">
-								<TriggerMethod>
-									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
-								</TriggerMethod>
+								<TouchedTrigger val="1.0" allowZero="false"/>
 								<CommissionPolicy>
 									<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 								</CommissionPolicy>
 								<OpenCloseAttrib val="C"/>
-								<TouchedTrigger val="1.0" allowZero="false"/>
+								<TriggerMethod>
+									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
+								</TriggerMethod>
 							</Attributes>
 							<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 							<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -1421,14 +1423,14 @@
 								<String>CHF</String>
 							</ArString>
 							<Attributes varName="attribs">
-								<TriggerMethod>
-									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
-								</TriggerMethod>
+								<TouchedTrigger val="1.0" allowZero="false"/>
 								<CommissionPolicy>
 									<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 								</CommissionPolicy>
 								<OpenCloseAttrib val="C"/>
-								<TouchedTrigger val="1.0" allowZero="false"/>
+								<TriggerMethod>
+									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
+								</TriggerMethod>
 							</Attributes>
 							<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 							<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -1520,14 +1522,14 @@
 								<String>CNH</String>
 							</ArString>
 							<Attributes varName="attribs">
-								<TriggerMethod>
-									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
-								</TriggerMethod>
+								<TouchedTrigger val="1.0" allowZero="false"/>
 								<CommissionPolicy>
 									<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 								</CommissionPolicy>
 								<OpenCloseAttrib val="C"/>
-								<TouchedTrigger val="1.0" allowZero="false"/>
+								<TriggerMethod>
+									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
+								</TriggerMethod>
 							</Attributes>
 							<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 							<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -1619,14 +1621,14 @@
 								<String>DKK</String>
 							</ArString>
 							<Attributes varName="attribs">
-								<TriggerMethod>
-									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
-								</TriggerMethod>
+								<TouchedTrigger val="1.0" allowZero="false"/>
 								<CommissionPolicy>
 									<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 								</CommissionPolicy>
 								<OpenCloseAttrib val="C"/>
-								<TouchedTrigger val="1.0" allowZero="false"/>
+								<TriggerMethod>
+									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
+								</TriggerMethod>
 							</Attributes>
 							<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 							<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -1718,14 +1720,14 @@
 								<String>EUR</String>
 							</ArString>
 							<Attributes varName="attribs">
-								<TriggerMethod>
-									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
-								</TriggerMethod>
+								<TouchedTrigger val="1.0" allowZero="false"/>
 								<CommissionPolicy>
 									<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 								</CommissionPolicy>
 								<OpenCloseAttrib val="C"/>
-								<TouchedTrigger val="1.0" allowZero="false"/>
+								<TriggerMethod>
+									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
+								</TriggerMethod>
 							</Attributes>
 							<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 							<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -1817,14 +1819,14 @@
 								<String>GBP</String>
 							</ArString>
 							<Attributes varName="attribs">
-								<TriggerMethod>
-									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
-								</TriggerMethod>
+								<TouchedTrigger val="1.0" allowZero="false"/>
 								<CommissionPolicy>
 									<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 								</CommissionPolicy>
 								<OpenCloseAttrib val="C"/>
-								<TouchedTrigger val="1.0" allowZero="false"/>
+								<TriggerMethod>
+									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
+								</TriggerMethod>
 							</Attributes>
 							<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 							<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -1916,14 +1918,14 @@
 								<String>HKD</String>
 							</ArString>
 							<Attributes varName="attribs">
-								<TriggerMethod>
-									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
-								</TriggerMethod>
+								<TouchedTrigger val="1.0" allowZero="false"/>
 								<CommissionPolicy>
 									<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 								</CommissionPolicy>
 								<OpenCloseAttrib val="C"/>
-								<TouchedTrigger val="1.0" allowZero="false"/>
+								<TriggerMethod>
+									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
+								</TriggerMethod>
 							</Attributes>
 							<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 							<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -2015,14 +2017,14 @@
 								<String>KRW</String>
 							</ArString>
 							<Attributes varName="attribs">
-								<TriggerMethod>
-									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
-								</TriggerMethod>
+								<TouchedTrigger val="1.0" allowZero="false"/>
 								<CommissionPolicy>
 									<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 								</CommissionPolicy>
 								<OpenCloseAttrib val="C"/>
-								<TouchedTrigger val="1.0" allowZero="false"/>
+								<TriggerMethod>
+									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
+								</TriggerMethod>
 							</Attributes>
 							<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 							<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -2114,14 +2116,14 @@
 								<String>MXN</String>
 							</ArString>
 							<Attributes varName="attribs">
-								<TriggerMethod>
-									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
-								</TriggerMethod>
+								<TouchedTrigger val="1.0" allowZero="false"/>
 								<CommissionPolicy>
 									<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 								</CommissionPolicy>
 								<OpenCloseAttrib val="C"/>
-								<TouchedTrigger val="1.0" allowZero="false"/>
+								<TriggerMethod>
+									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
+								</TriggerMethod>
 							</Attributes>
 							<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 							<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -2213,14 +2215,14 @@
 								<String>NOK</String>
 							</ArString>
 							<Attributes varName="attribs">
-								<TriggerMethod>
-									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
-								</TriggerMethod>
+								<TouchedTrigger val="1.0" allowZero="false"/>
 								<CommissionPolicy>
 									<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 								</CommissionPolicy>
 								<OpenCloseAttrib val="C"/>
-								<TouchedTrigger val="1.0" allowZero="false"/>
+								<TriggerMethod>
+									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
+								</TriggerMethod>
 							</Attributes>
 							<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 							<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -2312,14 +2314,14 @@
 								<String>NZD</String>
 							</ArString>
 							<Attributes varName="attribs">
-								<TriggerMethod>
-									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
-								</TriggerMethod>
+								<TouchedTrigger val="1.0" allowZero="false"/>
 								<CommissionPolicy>
 									<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 								</CommissionPolicy>
 								<OpenCloseAttrib val="C"/>
-								<TouchedTrigger val="1.0" allowZero="false"/>
+								<TriggerMethod>
+									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
+								</TriggerMethod>
 							</Attributes>
 							<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 							<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -2411,14 +2413,14 @@
 								<String>RUB</String>
 							</ArString>
 							<Attributes varName="attribs">
-								<TriggerMethod>
-									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
-								</TriggerMethod>
+								<TouchedTrigger val="1.0" allowZero="false"/>
 								<CommissionPolicy>
 									<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 								</CommissionPolicy>
 								<OpenCloseAttrib val="C"/>
-								<TouchedTrigger val="1.0" allowZero="false"/>
+								<TriggerMethod>
+									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
+								</TriggerMethod>
 							</Attributes>
 							<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 							<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -2510,14 +2512,14 @@
 								<String>SEK</String>
 							</ArString>
 							<Attributes varName="attribs">
-								<TriggerMethod>
-									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
-								</TriggerMethod>
+								<TouchedTrigger val="1.0" allowZero="false"/>
 								<CommissionPolicy>
 									<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 								</CommissionPolicy>
 								<OpenCloseAttrib val="C"/>
-								<TouchedTrigger val="1.0" allowZero="false"/>
+								<TriggerMethod>
+									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
+								</TriggerMethod>
 							</Attributes>
 							<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 							<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -2609,14 +2611,14 @@
 								<String>SGD</String>
 							</ArString>
 							<Attributes varName="attribs">
-								<TriggerMethod>
-									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
-								</TriggerMethod>
+								<TouchedTrigger val="1.0" allowZero="false"/>
 								<CommissionPolicy>
 									<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 								</CommissionPolicy>
 								<OpenCloseAttrib val="C"/>
-								<TouchedTrigger val="1.0" allowZero="false"/>
+								<TriggerMethod>
+									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
+								</TriggerMethod>
 							</Attributes>
 							<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 							<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -2708,14 +2710,14 @@
 								<String>USD</String>
 							</ArString>
 							<Attributes varName="attribs">
-								<TriggerMethod>
-									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
-								</TriggerMethod>
+								<TouchedTrigger val="1.0" allowZero="false"/>
 								<CommissionPolicy>
 									<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 								</CommissionPolicy>
 								<OpenCloseAttrib val="C"/>
-								<TouchedTrigger val="1.0" allowZero="false"/>
+								<TriggerMethod>
+									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
+								</TriggerMethod>
 							</Attributes>
 							<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 							<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -2807,14 +2809,14 @@
 								<String>ZAR</String>
 							</ArString>
 							<Attributes varName="attribs">
-								<TriggerMethod>
-									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
-								</TriggerMethod>
+								<TouchedTrigger val="1.0" allowZero="false"/>
 								<CommissionPolicy>
 									<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 								</CommissionPolicy>
 								<OpenCloseAttrib val="C"/>
-								<TouchedTrigger val="1.0" allowZero="false"/>
+								<TriggerMethod>
+									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
+								</TriggerMethod>
 							</Attributes>
 							<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 							<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -2905,14 +2907,14 @@
 					<startTime></startTime>
 					<endTime></endTime>
 					<Attributes varName="attribs">
-						<TriggerMethod>
-							<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
-						</TriggerMethod>
+						<TouchedTrigger val="1.0" allowZero="false"/>
 						<CommissionPolicy>
 							<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 						</CommissionPolicy>
 						<OpenCloseAttrib val="C"/>
-						<TouchedTrigger val="1.0" allowZero="false"/>
+						<TriggerMethod>
+							<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
+						</TriggerMethod>
 					</Attributes>
 					<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 					<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -3001,14 +3003,14 @@
 					<startTime></startTime>
 					<endTime></endTime>
 					<Attributes varName="attribs">
-						<TriggerMethod>
-							<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
-						</TriggerMethod>
+						<TouchedTrigger val="1.0" allowZero="false"/>
 						<CommissionPolicy>
 							<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 						</CommissionPolicy>
 						<OpenCloseAttrib val="C"/>
-						<TouchedTrigger val="1.0" allowZero="false"/>
+						<TriggerMethod>
+							<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
+						</TriggerMethod>
 					</Attributes>
 					<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 					<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -3097,14 +3099,14 @@
 					<startTime></startTime>
 					<endTime></endTime>
 					<Attributes varName="attribs">
-						<TriggerMethod>
-							<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
-						</TriggerMethod>
+						<TouchedTrigger val="1.0" allowZero="false"/>
 						<CommissionPolicy>
 							<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 						</CommissionPolicy>
 						<OpenCloseAttrib val="C"/>
-						<TouchedTrigger val="1.0" allowZero="false"/>
+						<TriggerMethod>
+							<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
+						</TriggerMethod>
 					</Attributes>
 					<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 					<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -3193,11 +3195,11 @@
 					<startTime></startTime>
 					<endTime></endTime>
 					<Attributes varName="attribs">
-						<MonetaryValue val="3000.0"/>
+						<TouchedTrigger val="1.0" allowZero="false"/>
 						<CommissionPolicy>
 							<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 						</CommissionPolicy>
-						<TouchedTrigger val="1.0" allowZero="false"/>
+						<MonetaryValue val="3000.0"/>
 					</Attributes>
 					<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 					<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -3286,14 +3288,14 @@
 					<startTime></startTime>
 					<endTime></endTime>
 					<Attributes varName="attribs">
-						<TriggerMethod>
-							<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
-						</TriggerMethod>
+						<TouchedTrigger val="1.0" allowZero="false"/>
 						<CommissionPolicy>
 							<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 						</CommissionPolicy>
 						<OpenCloseAttrib val="C"/>
-						<TouchedTrigger val="1.0" allowZero="false"/>
+						<TriggerMethod>
+							<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
+						</TriggerMethod>
 					</Attributes>
 					<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 					<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -3382,14 +3384,14 @@
 					<startTime></startTime>
 					<endTime></endTime>
 					<Attributes varName="attribs">
-						<TriggerMethod>
-							<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
-						</TriggerMethod>
+						<TouchedTrigger val="1.0" allowZero="false"/>
 						<CommissionPolicy>
 							<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 						</CommissionPolicy>
 						<OpenCloseAttrib val="C"/>
-						<TouchedTrigger val="1.0" allowZero="false"/>
+						<TriggerMethod>
+							<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
+						</TriggerMethod>
 					</Attributes>
 					<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 					<AlgoExchangeSettings varName="algoExchangeSettings">
