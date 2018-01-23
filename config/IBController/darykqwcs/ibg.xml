@@ -86,7 +86,7 @@
 	<ApiSettings varName="api" dde="false" readOnlyApi="false" allowOnlyLocalhost="false" socketClient="false" autoOpenOrdDonwload="false" port="4002" includeFxPositions="true" includeContinuousUpdateChanges="true" sendMessagesInEnglish="false" sendMessagesTranslated="true" logLevel="2" useNegativeAutoRange="true" overridePrecautionaryConstraints="false" bypassBondWarning="false" bypassYtwWarning="false" bypassCalledBondWarning="false" bypassSameActionPairTradeWarning="false" masterClientID="-1" acceptLargeSize="false" showApiMsg="false" includeMktData="false" createApiMsgLogFile="false" showIBGConsole="false" aPINotAllowedShownAfterDenyAPI="false" slowBufferTimeout="30" syncAccounts="false" multichartNetDoNotShowTime="0" multichartDoNotShowTime="0" verifiedAppPortRangeStart="7000" verifiedAppPortRangeEnd="8000" timeOfVerifiedAppShutdown="0" portOfVerifiedAppShutdown="0">
 		<ListOfStrings varName="trustedIPAddresses">
 			<String>127.0.0.1</String>
-			<String>172.17.0.2</String>
+			<String>172.17.0.3</String>
 		</ListOfStrings>
 		<compExchSeparator></compExchSeparator>
 	</ApiSettings>
