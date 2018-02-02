@@ -3,10 +3,13 @@
 	<UISettings varName="ui" version="2" minQuestionDlgWidth="0" fontName="Dialog" bigScalePrices="false" bigScaleSizes="false" contractDisplay="true" delayForFilled="30" delayForCanceled="10" defaultOmsBasket="Untitled" autoMeter="true" tipIndex="-1" showTipAtStartup="false" autoRemoveFinishedOrder="true" enableOrderSort="false" keyAdded="false" expireDateAdded="false" settlingAdded="false" colorText="false" showZeroPosition="true" showMoreOptions="false" showDVPZeroPosition="true" showAwayZeroPosition="true" displayServerTime="true" useLargeTextForServerTime="false" alwaysOnTop="false" flashBulletin="true" lastLoginDisplay="true" audit="true" autoRollover="true" useCondensedComboDesc="false" hideWorkspaceButtons="false" useOldOrderView="false" roundOrderSizes="false" volColumnsAdded="false" optionTraderVolColumnsAdded="false" showPricesOnVolatilityLayout="false" showPreviousDaysExecutions="true" newsColumnsAdded="false" presetsColumnsAdded="false" scaleColumnsAdded="false" manualAwayColumnsAdded="false" columnTips="true" highlightHighLow="false" showLegExecOnly="false" showMouseHotkeyTip="false" showCustomerPanel="false" showCloseIcon="true" consolidateStatus="true" showCustomerPanelInPecentage="true" showCustomerPanelAsValue="false" colorCodePnl="true" uptickBgColor="-16777012" downtickBgColor="-3407872" colorOptions="false" inTheMoneyColor="-3342388" outOfTheMoneyColor="-13108" showVolTip="true" showOrderStatusTip="true" showTimeStampTip="true" instanRemovalBasketOrders="false" includeFxPositions="false" showToolbarOnDetachedPages="false" displayStocksWithOptsInBold="false" allowDetachPages="true" triggerCompressedView="true" displayTableGridLines="false" lastVersionPrompted="0" useSimplifiedActions="false" portfolioPageRemovedByUser="false" portfolioPageRealizedPnlIntro="false" comboExecColumnAdded="false" drillDownColumn="0" positionColumnAutoAdded="false" unrealizedPnlColumnAutoAdded="false" realizedPnlColumnAutoAdded="false" disabledAnimation="false" rowBrightnessLevel="1" insertPagesSorted="true" usePeggedToPrimaryNotRelative="false" avgPricePrecision="3" blotterAvgPricePrecision="5" extendedQuotePanel="false" displayedQuotePanelHelp="false" autoCreateBlotterTicket="false" autoModifyTicket="false" autoEditOnFocus="true" autoResizeColumns="true" disableGUIAnimation="false" includeOpeningPositionInPnL="true" roundValues="true" compactContractDisplay="false" roundValuesOnAccountWindow="true" pinMarketScanner="false" sortTablesOnHeaderClick="true" showQuickHeader="true" showOrderReversalTooltip="true" disableExpandInlineEditor="false" historicalVolatalityColumnAddedToQuotePanel="false" showHedgingIconWithSize="true" showSymbolForDerivatives="false" showComboTypeInFrontOfDescription="false" alwaysShowDST="false" suppressOthersAlerts="false" displayBuySellMousePointers="true" autoAlignment="true" removeLeadingZeroBeforeDecimal="false" showOutlineForCellWithHotkeyAction="true" doNotPromptForMdSubscr="false" displayAccountType="false" useTickDots="true" displayTrueTickVolume="false" displayAbbreviatedVolume="true" formatPricesWithCommas="false" statusBarActionButtonsDisplay="true" largeMenuText="false" mosaicAlwaysBlack="false" statusBarMiniIconsDisplay="true" combineWindowsOnFocusChange1="false" windowsGroupMove="false" autoShowHotlist="false" openToolsAtActionSpot="false" shownWriteOptionsSelectionHint="false" adjustWindowAndColumnWidths="true" scaleEnabled="false" showIFAUngrouped="false" contractColumnClickActionVal="0" showPercentage="true" showExtraPrecisionInSuperscript="true" displayedMergeArbInfoPopup="false" displayAccountInTradeNotifications="false" showPerformanceProfileInOrderConfirmation="true" featureManagerVersion="0" pnLMgrVersionForWhichWarningFiled="0" colorsRepairNeeded="true" lastPriceRepairNeeded="true" comboPositionVersionForWhichWarningFiled="0" lastSelectedStrategy="0" lastTimeInstallCodecsMessageShown="0" showCalculationsForPnLTip="true" autoAddRecogniaPairColumns="true" recogniaDisclaimerShown="false">
 		<browser></browser>
 		<rapidStkEntry></rapidStkEntry>
+		<titlebarText></titlebarText>
+		<orderDialogStructure></orderDialogStructure>
 		<ArString varName="orderRefList"/>
 		<orderTradeNotificationType>COMPLETED_ORDER</orderTradeNotificationType>
 	</UISettings>
-	<SystemSettings varName="system" exportTrades="false" autoExportEnabled="false" exportDir="/home/bboyle/Jts/" executionSummaryExportDir="/home/bboyle/Jts/" autoLogoffTime="11:45,PM" autoRestartEnabled="false" autoExportDirectory="/home/bboyle/Jts/" autoExportInt="0" autoExportExt="false" autoExportId="false" autoExportVolLink="false" autoExportSeparator="," rfqTimeout="0" safety="false" lastReadNumber="-1" ccpSocketBufferSizes="0" apiSocketBufferSizes="0" warnOnExitWithPos="false" warnOnExit="true" enableChartToolTip="false" redirectChartToolTip="false" twoPendingPages="false" exportSymbol="100" specialClearing="false" exportLocalTimezone="false" autoSaveSettings="true" saveWatchlistsToCloud="true" saveScansToCloud="true" dynamicDataCalc="false" autoLockTimeout="0" aggregateGroupLimit="10" applicant="false" deviceTimeZoneChangedPromptShown="false" pnlRollingTimeZone="false">
+	<SystemSettings varName="system" exportTrades="false" autoExportEnabled="false" exportDir="/home/gatekeeper/IBController/" executionSummaryExportDir="/home/gatekeeper/IBController/" autoLogoffTime="11:45,PM" autoRestartEnabled="false" autoExportDirectory="/home/gatekeeper/IBController/" autoExportInt="0" autoExportExt="false" autoExportId="false" autoExportVolLink="false" autoExportSeparator="," rfqTimeout="0" safety="false" lastReadNumber="-1" ccpSocketBufferSizes="0" apiSocketBufferSizes="0" warnOnExitWithPos="false" warnOnExit="true" enableChartToolTip="false" redirectChartToolTip="false" twoPendingPages="false" exportSymbol="100" specialClearing="false" exportLocalTimezone="false" autoSaveSettings="true" saveWatchlistsToCloud="true" saveScansToCloud="true" dynamicDataCalc="false" autoLockTimeout="0" aggregateGroupLimit="10" applicant="false" deviceTimeZoneChangedPromptShown="false" pnlRollingTimeZone="false">
+		<javaBinaryLocation></javaBinaryLocation>
 		<autoExportFile></autoExportFile>
 		<autoExportStart></autoExportStart>
 		<autoExportStop></autoExportStop>
@@ -72,6 +75,8 @@
 				</ArColumnInfo>
 			</ExecTableColumnCollection>
 		</ExecTableColumnMgr>
+		<pnlTimeZone></pnlTimeZone>
+		<deviceTimeZoneAtPnLTimeZoneSelection></deviceTimeZoneAtPnLTimeZoneSelection>
 	</SystemSettings>
 	<OrderSettings varName="order" reuseRejectedOrd="true" autoAdjustStopLimit="false" excludeArcaFromBest="false" saveAsDefaultSize="false" filterRfq="true" king="false" strategiesAdded="false" continuousBasisPointsUpdate="true" continuousUpdateVolDefault="false" volRandomizePrice="false" volRandomizeSize="false" indexOptFutPricing="true" useAutoLogoffAsMidnight="false" revocableExerciseType="1" closingPosOrderOffset="#" closingPositionTif="Default" adjustAlgoOrdersDate="true" suppressOthersMessages="false" destinationTree="false" hedgeInheritsOrderRef="false" optionDisFee="false" allowPreciseFXTrading="true" reverseOrderType="1">
 		<closingPosOrderType>LMT</closingPosOrderType>
@@ -83,7 +88,7 @@
 		<CompletedOrderBlinkType type="jsetting.CompletedOrderSystemCancelledBlinkType" varName="completedOrderBlinkType"/>
 		<activityEventScope>NORMAL</activityEventScope>
 	</OrderSettings>
-	<ApiSettings varName="api" dde="false" readOnlyApi="false" allowOnlyLocalhost="false" socketClient="false" autoOpenOrdDonwload="false" port="4002" includeFxPositions="true" includeContinuousUpdateChanges="true" sendMessagesInEnglish="false" sendMessagesTranslated="true" logLevel="2" useNegativeAutoRange="true" overridePrecautionaryConstraints="false" bypassBondWarning="false" bypassYtwWarning="false" bypassCalledBondWarning="false" bypassSameActionPairTradeWarning="false" masterClientID="-1" acceptLargeSize="false" showApiMsg="false" includeMktData="false" createApiMsgLogFile="false" showIBGConsole="false" aPINotAllowedShownAfterDenyAPI="false" slowBufferTimeout="30" syncAccounts="false" multichartNetDoNotShowTime="0" multichartDoNotShowTime="0" verifiedAppPortRangeStart="7000" verifiedAppPortRangeEnd="8000" timeOfVerifiedAppShutdown="0" portOfVerifiedAppShutdown="0">
+	<ApiSettings varName="api" dde="false" readOnlyApi="false" allowOnlyLocalhost="false" socketClient="false" autoOpenOrdDonwload="false" port="4002" includeFxPositions="true" includeContinuousUpdateChanges="true" sendMessagesInEnglish="false" sendMessagesTranslated="true" logLevel="2" useNegativeAutoRange="true" overridePrecautionaryConstraints="true" bypassBondWarning="false" bypassYtwWarning="false" bypassCalledBondWarning="false" bypassSameActionPairTradeWarning="false" masterClientID="-1" acceptLargeSize="false" showApiMsg="false" includeMktData="false" createApiMsgLogFile="false" showIBGConsole="false" aPINotAllowedShownAfterDenyAPI="false" slowBufferTimeout="30" syncAccounts="false" multichartNetDoNotShowTime="0" multichartDoNotShowTime="0" verifiedAppPortRangeStart="7000" verifiedAppPortRangeEnd="8000" timeOfVerifiedAppShutdown="0" portOfVerifiedAppShutdown="0">
 		<ListOfStrings varName="trustedIPAddresses">
 			<String>127.0.0.1</String>
 			<String>172.17.0.3</String>
@@ -92,6 +97,13 @@
 	</ApiSettings>
 	<AnalyticsSettings varName="analytics" version="1" hedgeColumn="false" estimateOptMdlPrice="false" whatifOnIbisStartup="true" useLocalBidAskIV="false" showAbsoluteVolatilityChange="true" risknavDraggableFramesFirstRun="true" actualReport="2" clonedPfType="0" volUnits="Annual" referencePriceType="Bid or Ask">
 		<IACheckRiskCacheType varName="cacheCheckRisk" value="1" cacheEnabled="false"/>
+		<report1></report1>
+		<report2></report2>
+		<report3></report3>
+		<report4></report4>
+		<reportAutosave></reportAutosave>
+		<betaCalculationParamsRaw></betaCalculationParamsRaw>
+		<optModEdConfig></optModEdConfig>
 		<portfolioUpdate></portfolioUpdate>
 	</AnalyticsSettings>
 	<ResearchNewsSettings varName="researchNews" enableSymbolSearch="true"/>
@@ -100,8 +112,9 @@
 		<mibsxContraTrader></mibsxContraTrader>
 		<mibsxContraCompany></mibsxContraCompany>
 		<mibsxSector></mibsxSector>
+		<mibsxFixedSector></mibsxFixedSector>
 	</MibsxSettings>
-	<ExportSettings varName="exportSettings" exportSymbol="100" exportLocalTimezone="false" exportExt="false" exportId="false" exportVolLink="false" exportDirectory="/home/bboyle/Jts/" exportSeparator=",">
+	<ExportSettings varName="exportSettings" exportSymbol="100" exportLocalTimezone="false" exportExt="false" exportId="false" exportVolLink="false" exportDirectory="/home/gatekeeper/IBController/" exportSeparator=",">
 		<exportType>DEFAULT</exportType>
 		<ExecTableColumnMgr varName="execExportColumnMgr" fitColumnsToWindow="false">
 			<ExecTableColumnCollection varName="columns" isExportTradeReport="true" scaled="false" scaledForTrackingModelTrades="false" execWindowDuplicatedColumnsAddressed="true">
@@ -163,7 +176,7 @@
 			</ExecTableColumnCollection>
 		</ExecTableColumnMgr>
 	</ExportSettings>
-	<ExportSettings varName="emailExportSettings" exportSymbol="100" exportLocalTimezone="false" exportExt="false" exportId="false" exportVolLink="false" exportDirectory="/home/bboyle/Jts/" exportSeparator=" ">
+	<ExportSettings varName="emailExportSettings" exportSymbol="100" exportLocalTimezone="false" exportExt="false" exportId="false" exportVolLink="false" exportDirectory="/home/gatekeeper/IBController/" exportSeparator=" ">
 		<exportType>DEFAULT</exportType>
 		<ExecTableColumnMgr varName="execExportColumnMgr" fitColumnsToWindow="false">
 			<ExecTableColumnCollection varName="columns" isExportTradeReport="true" scaled="false" scaledForTrackingModelTrades="false" execWindowDuplicatedColumnsAddressed="true">
@@ -234,11 +247,25 @@
 	</AllocationParams>
 	<SmartRoutingSettings varName="smartRoutingSettings" preOpenReroute="false" favorPriceImprovements="false" eTradeOnly="false" firmQuoteOnly="false" nbboPriceCap="#" noDarkPools="false" darkOnly="false">
 		<ArSmartMod varName="arSmartMod"/>
+		<defStkRoutingStrategy></defStkRoutingStrategy>
+		<defOptRoutingStrategy></defOptRoutingStrategy>
+		<RoutingStrategy varName="routingStrategy" val="0" name="SMART" desc="SMART Multipurpose">
+			<code></code>
+			<toolTip></toolTip>
+		</RoutingStrategy>
+		<RoutingStrategy varName="optRoutingStrategy" val="0" name="SMART" desc="SMART Multipurpose">
+			<code></code>
+			<toolTip></toolTip>
+		</RoutingStrategy>
+		<ArString varName="stockDisplay">
+			<String></String>
+		</ArString>
+		<ArString varName="optionDisplay">
+			<String></String>
+		</ArString>
 	</SmartRoutingSettings>
 	<MiscSettings varName="miscSettings" allMandatoryCapExchangesConfirmed="true" exportExchange="true" renameQuantityColumn="false" allowIBAway="false" modelAreUsed="false">
 		<portfolioUpdate></portfolioUpdate>
-		<ListOfLooseAccts varName="looseAccount"/>
-		<MapOfStrings varName="exchangeAccountsMap"/>
 		<MapOfStrings varName="hiddenMessageMap">
 			<Entry key="OrderInfoMessages" val=""/>
 			<Entry key="MessageIds" val="131=0,167=1|true|,237=0|true|,247=0|true|,253=0|true|,258=0|true|,360=0|true|,432=0,444=0,445=0,449=0,450=0,"/>
@@ -246,19 +273,19 @@
 		<ListOfStrings varName="confirmedMandatoryCapExchanges"/>
 	</MiscSettings>
 	<OrderDefaultNode varName="orderDefaultRoot">
-		<OrderDefault varName="element" side="0" useClosePositionSizeFirst="false" useCumulativeSizeForMarketDepth="true" preferSmart="false" useDefaultAmt="false" strategy="false" active="true" useRemainingTicketSize="true" defaultDisplaySizeTo50PercOfSize="false" defaultDestination="true" version="18" defSize="100" sizeInc="#" rfqSize="1000" orderOrigin="0" numOfTicks="0" cashQtyEstimateFactor="25" expandedStrategyLastUse="0" timestamp="-9223372036854775808" trailingOffset="1.0" hedgeOrderOffset="0.01" closeCurrencyOffset="0.01" rebalanceCashOffset="0.01" defaultAmt="0.0" relativeOffset="0.01" percentCheck="3" timeInForce="DAY" hedgeOrderType="1" totalValueCurrency="USD" orderType="2" ticketOrderType="1" closeCurrencyOrderType="1" rebalanceCashOrderType="1" bookTraderSizeMultipliers="1,2,3,5" universeID="ANY" trailingUnit="0" stopOffset="1.0" stopLimitOffset="3.0" stopLimitOffsetUnit="1">
+		<OrderDefault varName="element" side="0" useClosePositionSizeFirst="false" useCumulativeSizeForMarketDepth="true" preferSmart="false" useDefaultAmt="false" strategy="false" active="true" useRemainingTicketSize="true" defaultDisplaySizeTo50PercOfSize="false" defaultDestination="true" version="18" defSize="100" sizeInc="#" rfqSize="1000" orderOrigin="0" numOfTicks="0" cashQtyEstimateFactor="25" expandedStrategyLastUse="0" timestamp="-9223372036854775808" trailingOffset="1.0" hedgeOrderOffset="0.01" closeCurrencyOffset="0.01" rebalanceCashOffset="0.01" defaultAmt="0.0" relativeOffset="0.01" percentCheck="3" timeInForce="DAY" hedgeOrderType="1" orderType="2" ticketOrderType="1" closeCurrencyOrderType="1" rebalanceCashOrderType="1" bookTraderSizeMultipliers="1,2,3,5" universeID="ANY" trailingUnit="0" stopOffset="1.0" stopLimitOffset="3.0" stopLimitOffsetUnit="1">
 			<startTime></startTime>
 			<endTime></endTime>
 			<Attributes varName="attribs">
-				<TouchedTrigger val="1.0" allowZero="false"/>
 				<CommissionPolicy>
 					<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 				</CommissionPolicy>
-				<OpenCloseAttrib val="O"/>
-				<OutsideRth val="false"/>
 				<TriggerMethod>
 					<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 				</TriggerMethod>
+				<OpenCloseAttrib val="O"/>
+				<OutsideRth val="false"/>
+				<TouchedTrigger val="1.0" allowZero="false"/>
 			</Attributes>
 			<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 			<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -326,6 +353,7 @@
 					<priceTypeExt>None</priceTypeExt>
 				</PriceTypeQuantityUnit>
 			</AttachedOrderData2>
+			<modifiedByUser>TOUCHED_BY_USER</modifiedByUser>
 			<presetVariant>SEC_TYPE_LEVEL</presetVariant>
 			<AttachedOrderData varName="attachedOrder" version="2" autoStopOffset="#" autoStopOffsetUnit="0" autoStopLmtOffset="#" autoStopLmtOffsetUnit="0" autoTrailingAmt="#" stopProfitTriggerOffset="#" stopProfitTriggerOffsetUnit="0" adjustedStopPriceOffset="#" adjustedStopPriceOffsetUnit="0" adjustedStopLmtPriceOffset="#" adjustedStopLmtPriceOffsetUnit="0" adjustedTrailingAmt="#" autoLmtOffset="#" autoLmtOffsetUnit="0" autoLmtSize="0" reverseStop="true" reverseTarget="true" reverseScale="true" reverseBracket="true">
 				<autoStop>NONE</autoStop>
@@ -341,19 +369,19 @@
 		</OrderDefault>
 		<ListOfOrderDefaultNode varName="children">
 			<OrderDefaultNode>
-				<OrderDefault varName="element" side="0" useClosePositionSizeFirst="false" useCumulativeSizeForMarketDepth="true" preferSmart="false" useDefaultAmt="false" strategy="false" active="true" useRemainingTicketSize="true" defaultDisplaySizeTo50PercOfSize="false" defaultDestination="true" version="18" defSize="100" sizeInc="#" rfqSize="1000" orderOrigin="0" numOfTicks="0" cashQtyEstimateFactor="25" expandedStrategyLastUse="0" timestamp="-9223372036854775808" trailingOffset="1.0" hedgeOrderOffset="0.01" closeCurrencyOffset="0.01" rebalanceCashOffset="0.01" defaultAmt="0.0" relativeOffset="0.01" percentCheck="3" timeInForce="DAY" hedgeOrderType="1" totalValueCurrency="USD" orderType="2" ticketOrderType="1" closeCurrencyOrderType="1" rebalanceCashOrderType="1" bookTraderSizeMultipliers="1,2,3,5" secType="STK" trailingUnit="0" stopOffset="1.0" stopLimitOffset="3.0" stopLimitOffsetUnit="1">
+				<OrderDefault varName="element" side="0" useClosePositionSizeFirst="false" useCumulativeSizeForMarketDepth="true" preferSmart="false" useDefaultAmt="false" strategy="false" active="true" useRemainingTicketSize="true" defaultDisplaySizeTo50PercOfSize="false" defaultDestination="true" version="18" defSize="100" sizeInc="#" rfqSize="1000" orderOrigin="0" numOfTicks="0" cashQtyEstimateFactor="25" expandedStrategyLastUse="0" timestamp="-9223372036854775808" trailingOffset="1.0" hedgeOrderOffset="0.01" closeCurrencyOffset="0.01" rebalanceCashOffset="0.01" defaultAmt="0.0" relativeOffset="0.01" percentCheck="3" timeInForce="DAY" hedgeOrderType="1" orderType="2" ticketOrderType="1" closeCurrencyOrderType="1" rebalanceCashOrderType="1" bookTraderSizeMultipliers="1,2,3,5" secType="STK" trailingUnit="0" stopOffset="1.0" stopLimitOffset="3.0" stopLimitOffsetUnit="1">
 					<startTime></startTime>
 					<endTime></endTime>
 					<Attributes varName="attribs">
-						<TouchedTrigger val="1.0" allowZero="false"/>
 						<CommissionPolicy>
 							<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 						</CommissionPolicy>
-						<OpenCloseAttrib val="O"/>
-						<OutsideRth val="false"/>
 						<TriggerMethod>
 							<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 						</TriggerMethod>
+						<OpenCloseAttrib val="O"/>
+						<OutsideRth val="false"/>
+						<TouchedTrigger val="1.0" allowZero="false"/>
 					</Attributes>
 					<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 					<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -421,6 +449,7 @@
 							<priceTypeExt>None</priceTypeExt>
 						</PriceTypeQuantityUnit>
 					</AttachedOrderData2>
+					<modifiedByUser>TOUCHED_BY_USER</modifiedByUser>
 					<presetVariant>SEC_TYPE_LEVEL</presetVariant>
 					<AttachedOrderData varName="attachedOrder" version="2" autoStopOffset="#" autoStopOffsetUnit="0" autoStopLmtOffset="#" autoStopLmtOffsetUnit="0" autoTrailingAmt="#" stopProfitTriggerOffset="#" stopProfitTriggerOffsetUnit="0" adjustedStopPriceOffset="#" adjustedStopPriceOffsetUnit="0" adjustedStopLmtPriceOffset="#" adjustedStopLmtPriceOffsetUnit="0" adjustedTrailingAmt="#" autoLmtOffset="#" autoLmtOffsetUnit="0" autoLmtSize="0" reverseStop="true" reverseTarget="true" reverseScale="true" reverseBracket="true">
 						<autoStop>NONE</autoStop>
@@ -441,14 +470,14 @@
 					<startTime></startTime>
 					<endTime></endTime>
 					<Attributes varName="attribs">
-						<TouchedTrigger val="1.0" allowZero="false"/>
 						<CommissionPolicy>
 							<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 						</CommissionPolicy>
-						<OpenCloseAttrib val="C"/>
 						<TriggerMethod>
 							<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 						</TriggerMethod>
+						<OpenCloseAttrib val="C"/>
+						<TouchedTrigger val="1.0" allowZero="false"/>
 					</Attributes>
 					<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 					<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -516,6 +545,7 @@
 							<priceTypeExt>None</priceTypeExt>
 						</PriceTypeQuantityUnit>
 					</AttachedOrderData2>
+					<modifiedByUser>TOUCHED_BY_USER</modifiedByUser>
 					<presetVariant>SEC_TYPE_LEVEL</presetVariant>
 					<AttachedOrderData varName="attachedOrder" version="2" autoStopOffset="#" autoStopOffsetUnit="0" autoStopLmtOffset="#" autoStopLmtOffsetUnit="0" autoTrailingAmt="#" stopProfitTriggerOffset="#" stopProfitTriggerOffsetUnit="0" adjustedStopPriceOffset="#" adjustedStopPriceOffsetUnit="0" adjustedStopLmtPriceOffset="#" adjustedStopLmtPriceOffsetUnit="0" adjustedTrailingAmt="#" autoLmtOffset="#" autoLmtOffsetUnit="0" autoLmtSize="0" reverseStop="true" reverseTarget="true" reverseScale="true" reverseBracket="true">
 						<autoStop>NONE</autoStop>
@@ -536,14 +566,14 @@
 					<startTime></startTime>
 					<endTime></endTime>
 					<Attributes varName="attribs">
-						<TouchedTrigger val="1.0" allowZero="false"/>
 						<CommissionPolicy>
 							<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 						</CommissionPolicy>
-						<OpenCloseAttrib val="C"/>
 						<TriggerMethod>
 							<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 						</TriggerMethod>
+						<OpenCloseAttrib val="C"/>
+						<TouchedTrigger val="1.0" allowZero="false"/>
 					</Attributes>
 					<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 					<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -611,6 +641,7 @@
 							<priceTypeExt>None</priceTypeExt>
 						</PriceTypeQuantityUnit>
 					</AttachedOrderData2>
+					<modifiedByUser>TOUCHED_BY_USER</modifiedByUser>
 					<presetVariant>SEC_TYPE_LEVEL</presetVariant>
 					<AttachedOrderData varName="attachedOrder" version="2" autoStopOffset="#" autoStopOffsetUnit="0" autoStopLmtOffset="#" autoStopLmtOffsetUnit="0" autoTrailingAmt="#" stopProfitTriggerOffset="#" stopProfitTriggerOffsetUnit="0" adjustedStopPriceOffset="#" adjustedStopPriceOffsetUnit="0" adjustedStopLmtPriceOffset="#" adjustedStopLmtPriceOffsetUnit="0" adjustedTrailingAmt="#" autoLmtOffset="#" autoLmtOffsetUnit="0" autoLmtSize="0" reverseStop="true" reverseTarget="true" reverseScale="true" reverseBracket="true">
 						<autoStop>NONE</autoStop>
@@ -631,14 +662,14 @@
 					<startTime></startTime>
 					<endTime></endTime>
 					<Attributes varName="attribs">
-						<TouchedTrigger val="1.0" allowZero="false"/>
 						<CommissionPolicy>
 							<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 						</CommissionPolicy>
-						<OpenCloseAttrib val="C"/>
 						<TriggerMethod>
 							<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 						</TriggerMethod>
+						<OpenCloseAttrib val="C"/>
+						<TouchedTrigger val="1.0" allowZero="false"/>
 					</Attributes>
 					<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 					<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -706,6 +737,7 @@
 							<priceTypeExt>None</priceTypeExt>
 						</PriceTypeQuantityUnit>
 					</AttachedOrderData2>
+					<modifiedByUser>TOUCHED_BY_USER</modifiedByUser>
 					<presetVariant>SEC_TYPE_LEVEL</presetVariant>
 					<AttachedOrderData varName="attachedOrder" version="2" autoStopOffset="#" autoStopOffsetUnit="0" autoStopLmtOffset="#" autoStopLmtOffsetUnit="0" autoTrailingAmt="#" stopProfitTriggerOffset="#" stopProfitTriggerOffsetUnit="0" adjustedStopPriceOffset="#" adjustedStopPriceOffsetUnit="0" adjustedStopLmtPriceOffset="#" adjustedStopLmtPriceOffsetUnit="0" adjustedTrailingAmt="#" autoLmtOffset="#" autoLmtOffsetUnit="0" autoLmtSize="0" reverseStop="true" reverseTarget="true" reverseScale="true" reverseBracket="true">
 						<autoStop>NONE</autoStop>
@@ -726,14 +758,14 @@
 					<startTime></startTime>
 					<endTime></endTime>
 					<Attributes varName="attribs">
-						<TouchedTrigger val="1.0" allowZero="false"/>
 						<CommissionPolicy>
 							<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 						</CommissionPolicy>
-						<OpenCloseAttrib val="C"/>
 						<TriggerMethod>
 							<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 						</TriggerMethod>
+						<OpenCloseAttrib val="C"/>
+						<TouchedTrigger val="1.0" allowZero="false"/>
 					</Attributes>
 					<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 					<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -801,6 +833,7 @@
 							<priceTypeExt>None</priceTypeExt>
 						</PriceTypeQuantityUnit>
 					</AttachedOrderData2>
+					<modifiedByUser>TOUCHED_BY_USER</modifiedByUser>
 					<presetVariant>SEC_TYPE_LEVEL</presetVariant>
 					<AttachedOrderData varName="attachedOrder" version="2" autoStopOffset="#" autoStopOffsetUnit="0" autoStopLmtOffset="#" autoStopLmtOffsetUnit="0" autoTrailingAmt="#" stopProfitTriggerOffset="#" stopProfitTriggerOffsetUnit="0" adjustedStopPriceOffset="#" adjustedStopPriceOffsetUnit="0" adjustedStopLmtPriceOffset="#" adjustedStopLmtPriceOffsetUnit="0" adjustedTrailingAmt="#" autoLmtOffset="#" autoLmtOffsetUnit="0" autoLmtSize="0" reverseStop="true" reverseTarget="true" reverseScale="true" reverseBracket="true">
 						<autoStop>NONE</autoStop>
@@ -821,14 +854,14 @@
 					<startTime></startTime>
 					<endTime></endTime>
 					<Attributes varName="attribs">
-						<TouchedTrigger val="1.0" allowZero="false"/>
 						<CommissionPolicy>
 							<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 						</CommissionPolicy>
-						<OpenCloseAttrib val="C"/>
 						<TriggerMethod>
 							<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 						</TriggerMethod>
+						<OpenCloseAttrib val="C"/>
+						<TouchedTrigger val="1.0" allowZero="false"/>
 					</Attributes>
 					<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 					<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -896,6 +929,7 @@
 							<priceTypeExt>None</priceTypeExt>
 						</PriceTypeQuantityUnit>
 					</AttachedOrderData2>
+					<modifiedByUser>TOUCHED_BY_USER</modifiedByUser>
 					<presetVariant>SEC_TYPE_LEVEL</presetVariant>
 					<AttachedOrderData varName="attachedOrder" version="2" autoStopOffset="#" autoStopOffsetUnit="0" autoStopLmtOffset="#" autoStopLmtOffsetUnit="0" autoTrailingAmt="#" stopProfitTriggerOffset="#" stopProfitTriggerOffsetUnit="0" adjustedStopPriceOffset="#" adjustedStopPriceOffsetUnit="0" adjustedStopLmtPriceOffset="#" adjustedStopLmtPriceOffsetUnit="0" adjustedTrailingAmt="#" autoLmtOffset="#" autoLmtOffsetUnit="0" autoLmtSize="0" reverseStop="true" reverseTarget="true" reverseScale="true" reverseBracket="true">
 						<autoStop>NONE</autoStop>
@@ -916,14 +950,14 @@
 					<startTime></startTime>
 					<endTime></endTime>
 					<Attributes varName="attribs">
-						<TouchedTrigger val="1.0" allowZero="false"/>
 						<CommissionPolicy>
 							<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 						</CommissionPolicy>
-						<OpenCloseAttrib val="C"/>
 						<TriggerMethod>
 							<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 						</TriggerMethod>
+						<OpenCloseAttrib val="C"/>
+						<TouchedTrigger val="1.0" allowZero="false"/>
 					</Attributes>
 					<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 					<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -991,6 +1025,7 @@
 							<priceTypeExt>None</priceTypeExt>
 						</PriceTypeQuantityUnit>
 					</AttachedOrderData2>
+					<modifiedByUser>TOUCHED_BY_USER</modifiedByUser>
 					<presetVariant>SEC_TYPE_LEVEL</presetVariant>
 					<AttachedOrderData varName="attachedOrder" version="2" autoStopOffset="#" autoStopOffsetUnit="0" autoStopLmtOffset="#" autoStopLmtOffsetUnit="0" autoTrailingAmt="#" stopProfitTriggerOffset="#" stopProfitTriggerOffsetUnit="0" adjustedStopPriceOffset="#" adjustedStopPriceOffsetUnit="0" adjustedStopLmtPriceOffset="#" adjustedStopLmtPriceOffsetUnit="0" adjustedTrailingAmt="#" autoLmtOffset="#" autoLmtOffsetUnit="0" autoLmtSize="0" reverseStop="true" reverseTarget="true" reverseScale="true" reverseBracket="true">
 						<autoStop>NONE</autoStop>
@@ -1011,14 +1046,14 @@
 					<startTime></startTime>
 					<endTime></endTime>
 					<Attributes varName="attribs">
-						<TouchedTrigger val="1.0" allowZero="false"/>
 						<CommissionPolicy>
 							<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 						</CommissionPolicy>
-						<OpenCloseAttrib val="C"/>
 						<TriggerMethod>
 							<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 						</TriggerMethod>
+						<OpenCloseAttrib val="C"/>
+						<TouchedTrigger val="1.0" allowZero="false"/>
 					</Attributes>
 					<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 					<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -1086,6 +1121,7 @@
 							<priceTypeExt>None</priceTypeExt>
 						</PriceTypeQuantityUnit>
 					</AttachedOrderData2>
+					<modifiedByUser>TOUCHED_BY_USER</modifiedByUser>
 					<presetVariant>SEC_TYPE_LEVEL</presetVariant>
 					<AttachedOrderData varName="attachedOrder" version="2" autoStopOffset="#" autoStopOffsetUnit="0" autoStopLmtOffset="#" autoStopLmtOffsetUnit="0" autoTrailingAmt="#" stopProfitTriggerOffset="#" stopProfitTriggerOffsetUnit="0" adjustedStopPriceOffset="#" adjustedStopPriceOffsetUnit="0" adjustedStopLmtPriceOffset="#" adjustedStopLmtPriceOffsetUnit="0" adjustedTrailingAmt="#" autoLmtOffset="#" autoLmtOffsetUnit="0" autoLmtSize="0" reverseStop="true" reverseTarget="true" reverseScale="true" reverseBracket="true">
 						<autoStop>NONE</autoStop>
@@ -1106,14 +1142,14 @@
 					<startTime></startTime>
 					<endTime></endTime>
 					<Attributes varName="attribs">
-						<TouchedTrigger val="1.0" allowZero="false"/>
 						<CommissionPolicy>
 							<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 						</CommissionPolicy>
-						<OpenCloseAttrib val="C"/>
 						<TriggerMethod>
 							<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 						</TriggerMethod>
+						<OpenCloseAttrib val="C"/>
+						<TouchedTrigger val="1.0" allowZero="false"/>
 					</Attributes>
 					<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 					<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -1181,6 +1217,7 @@
 							<priceTypeExt>None</priceTypeExt>
 						</PriceTypeQuantityUnit>
 					</AttachedOrderData2>
+					<modifiedByUser>TOUCHED_BY_USER</modifiedByUser>
 					<presetVariant>SEC_TYPE_LEVEL</presetVariant>
 					<AttachedOrderData varName="attachedOrder" version="2" autoStopOffset="#" autoStopOffsetUnit="0" autoStopLmtOffset="#" autoStopLmtOffsetUnit="0" autoTrailingAmt="#" stopProfitTriggerOffset="#" stopProfitTriggerOffsetUnit="0" adjustedStopPriceOffset="#" adjustedStopPriceOffsetUnit="0" adjustedStopLmtPriceOffset="#" adjustedStopLmtPriceOffsetUnit="0" adjustedTrailingAmt="#" autoLmtOffset="#" autoLmtOffsetUnit="0" autoLmtSize="0" reverseStop="true" reverseTarget="true" reverseScale="true" reverseBracket="true">
 						<autoStop>NONE</autoStop>
@@ -1203,14 +1240,14 @@
 								<String>AUD</String>
 							</ArString>
 							<Attributes varName="attribs">
-								<TouchedTrigger val="1.0" allowZero="false"/>
 								<CommissionPolicy>
 									<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 								</CommissionPolicy>
-								<OpenCloseAttrib val="C"/>
 								<TriggerMethod>
 									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 								</TriggerMethod>
+								<OpenCloseAttrib val="C"/>
+								<TouchedTrigger val="1.0" allowZero="false"/>
 							</Attributes>
 							<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 							<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -1278,6 +1315,7 @@
 									<priceTypeExt>None</priceTypeExt>
 								</PriceTypeQuantityUnit>
 							</AttachedOrderData2>
+							<modifiedByUser>TOUCHED_BY_USER</modifiedByUser>
 							<presetVariant>SEC_TYPE_LEVEL</presetVariant>
 							<AttachedOrderData varName="attachedOrder" version="2" autoStopOffset="#" autoStopOffsetUnit="0" autoStopLmtOffset="#" autoStopLmtOffsetUnit="0" autoTrailingAmt="#" stopProfitTriggerOffset="#" stopProfitTriggerOffsetUnit="0" adjustedStopPriceOffset="#" adjustedStopPriceOffsetUnit="0" adjustedStopLmtPriceOffset="#" adjustedStopLmtPriceOffsetUnit="0" adjustedTrailingAmt="#" autoLmtOffset="#" autoLmtOffsetUnit="0" autoLmtSize="0" reverseStop="true" reverseTarget="true" reverseScale="true" reverseBracket="true">
 								<autoStop>NONE</autoStop>
@@ -1301,14 +1339,14 @@
 								<String>CAD</String>
 							</ArString>
 							<Attributes varName="attribs">
-								<TouchedTrigger val="1.0" allowZero="false"/>
 								<CommissionPolicy>
 									<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 								</CommissionPolicy>
-								<OpenCloseAttrib val="C"/>
 								<TriggerMethod>
 									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 								</TriggerMethod>
+								<OpenCloseAttrib val="C"/>
+								<TouchedTrigger val="1.0" allowZero="false"/>
 							</Attributes>
 							<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 							<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -1376,6 +1414,7 @@
 									<priceTypeExt>None</priceTypeExt>
 								</PriceTypeQuantityUnit>
 							</AttachedOrderData2>
+							<modifiedByUser>TOUCHED_BY_USER</modifiedByUser>
 							<presetVariant>SEC_TYPE_LEVEL</presetVariant>
 							<AttachedOrderData varName="attachedOrder" version="2" autoStopOffset="#" autoStopOffsetUnit="0" autoStopLmtOffset="#" autoStopLmtOffsetUnit="0" autoTrailingAmt="#" stopProfitTriggerOffset="#" stopProfitTriggerOffsetUnit="0" adjustedStopPriceOffset="#" adjustedStopPriceOffsetUnit="0" adjustedStopLmtPriceOffset="#" adjustedStopLmtPriceOffsetUnit="0" adjustedTrailingAmt="#" autoLmtOffset="#" autoLmtOffsetUnit="0" autoLmtSize="0" reverseStop="true" reverseTarget="true" reverseScale="true" reverseBracket="true">
 								<autoStop>NONE</autoStop>
@@ -1399,14 +1438,14 @@
 								<String>CHF</String>
 							</ArString>
 							<Attributes varName="attribs">
-								<TouchedTrigger val="1.0" allowZero="false"/>
 								<CommissionPolicy>
 									<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 								</CommissionPolicy>
-								<OpenCloseAttrib val="C"/>
 								<TriggerMethod>
 									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 								</TriggerMethod>
+								<OpenCloseAttrib val="C"/>
+								<TouchedTrigger val="1.0" allowZero="false"/>
 							</Attributes>
 							<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 							<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -1474,6 +1513,7 @@
 									<priceTypeExt>None</priceTypeExt>
 								</PriceTypeQuantityUnit>
 							</AttachedOrderData2>
+							<modifiedByUser>TOUCHED_BY_USER</modifiedByUser>
 							<presetVariant>SEC_TYPE_LEVEL</presetVariant>
 							<AttachedOrderData varName="attachedOrder" version="2" autoStopOffset="#" autoStopOffsetUnit="0" autoStopLmtOffset="#" autoStopLmtOffsetUnit="0" autoTrailingAmt="#" stopProfitTriggerOffset="#" stopProfitTriggerOffsetUnit="0" adjustedStopPriceOffset="#" adjustedStopPriceOffsetUnit="0" adjustedStopLmtPriceOffset="#" adjustedStopLmtPriceOffsetUnit="0" adjustedTrailingAmt="#" autoLmtOffset="#" autoLmtOffsetUnit="0" autoLmtSize="0" reverseStop="true" reverseTarget="true" reverseScale="true" reverseBracket="true">
 								<autoStop>NONE</autoStop>
@@ -1497,14 +1537,14 @@
 								<String>CNH</String>
 							</ArString>
 							<Attributes varName="attribs">
-								<TouchedTrigger val="1.0" allowZero="false"/>
 								<CommissionPolicy>
 									<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 								</CommissionPolicy>
-								<OpenCloseAttrib val="C"/>
 								<TriggerMethod>
 									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 								</TriggerMethod>
+								<OpenCloseAttrib val="C"/>
+								<TouchedTrigger val="1.0" allowZero="false"/>
 							</Attributes>
 							<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 							<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -1572,6 +1612,7 @@
 									<priceTypeExt>None</priceTypeExt>
 								</PriceTypeQuantityUnit>
 							</AttachedOrderData2>
+							<modifiedByUser>TOUCHED_BY_USER</modifiedByUser>
 							<presetVariant>SEC_TYPE_LEVEL</presetVariant>
 							<AttachedOrderData varName="attachedOrder" version="2" autoStopOffset="#" autoStopOffsetUnit="0" autoStopLmtOffset="#" autoStopLmtOffsetUnit="0" autoTrailingAmt="#" stopProfitTriggerOffset="#" stopProfitTriggerOffsetUnit="0" adjustedStopPriceOffset="#" adjustedStopPriceOffsetUnit="0" adjustedStopLmtPriceOffset="#" adjustedStopLmtPriceOffsetUnit="0" adjustedTrailingAmt="#" autoLmtOffset="#" autoLmtOffsetUnit="0" autoLmtSize="0" reverseStop="true" reverseTarget="true" reverseScale="true" reverseBracket="true">
 								<autoStop>NONE</autoStop>
@@ -1595,14 +1636,14 @@
 								<String>DKK</String>
 							</ArString>
 							<Attributes varName="attribs">
-								<TouchedTrigger val="1.0" allowZero="false"/>
 								<CommissionPolicy>
 									<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 								</CommissionPolicy>
-								<OpenCloseAttrib val="C"/>
 								<TriggerMethod>
 									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 								</TriggerMethod>
+								<OpenCloseAttrib val="C"/>
+								<TouchedTrigger val="1.0" allowZero="false"/>
 							</Attributes>
 							<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 							<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -1670,6 +1711,7 @@
 									<priceTypeExt>None</priceTypeExt>
 								</PriceTypeQuantityUnit>
 							</AttachedOrderData2>
+							<modifiedByUser>TOUCHED_BY_USER</modifiedByUser>
 							<presetVariant>SEC_TYPE_LEVEL</presetVariant>
 							<AttachedOrderData varName="attachedOrder" version="2" autoStopOffset="#" autoStopOffsetUnit="0" autoStopLmtOffset="#" autoStopLmtOffsetUnit="0" autoTrailingAmt="#" stopProfitTriggerOffset="#" stopProfitTriggerOffsetUnit="0" adjustedStopPriceOffset="#" adjustedStopPriceOffsetUnit="0" adjustedStopLmtPriceOffset="#" adjustedStopLmtPriceOffsetUnit="0" adjustedTrailingAmt="#" autoLmtOffset="#" autoLmtOffsetUnit="0" autoLmtSize="0" reverseStop="true" reverseTarget="true" reverseScale="true" reverseBracket="true">
 								<autoStop>NONE</autoStop>
@@ -1693,14 +1735,14 @@
 								<String>EUR</String>
 							</ArString>
 							<Attributes varName="attribs">
-								<TouchedTrigger val="1.0" allowZero="false"/>
 								<CommissionPolicy>
 									<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 								</CommissionPolicy>
-								<OpenCloseAttrib val="C"/>
 								<TriggerMethod>
 									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 								</TriggerMethod>
+								<OpenCloseAttrib val="C"/>
+								<TouchedTrigger val="1.0" allowZero="false"/>
 							</Attributes>
 							<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 							<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -1768,6 +1810,7 @@
 									<priceTypeExt>None</priceTypeExt>
 								</PriceTypeQuantityUnit>
 							</AttachedOrderData2>
+							<modifiedByUser>TOUCHED_BY_USER</modifiedByUser>
 							<presetVariant>SEC_TYPE_LEVEL</presetVariant>
 							<AttachedOrderData varName="attachedOrder" version="2" autoStopOffset="#" autoStopOffsetUnit="0" autoStopLmtOffset="#" autoStopLmtOffsetUnit="0" autoTrailingAmt="#" stopProfitTriggerOffset="#" stopProfitTriggerOffsetUnit="0" adjustedStopPriceOffset="#" adjustedStopPriceOffsetUnit="0" adjustedStopLmtPriceOffset="#" adjustedStopLmtPriceOffsetUnit="0" adjustedTrailingAmt="#" autoLmtOffset="#" autoLmtOffsetUnit="0" autoLmtSize="0" reverseStop="true" reverseTarget="true" reverseScale="true" reverseBracket="true">
 								<autoStop>NONE</autoStop>
@@ -1791,14 +1834,14 @@
 								<String>GBP</String>
 							</ArString>
 							<Attributes varName="attribs">
-								<TouchedTrigger val="1.0" allowZero="false"/>
 								<CommissionPolicy>
 									<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 								</CommissionPolicy>
-								<OpenCloseAttrib val="C"/>
 								<TriggerMethod>
 									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 								</TriggerMethod>
+								<OpenCloseAttrib val="C"/>
+								<TouchedTrigger val="1.0" allowZero="false"/>
 							</Attributes>
 							<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 							<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -1866,6 +1909,7 @@
 									<priceTypeExt>None</priceTypeExt>
 								</PriceTypeQuantityUnit>
 							</AttachedOrderData2>
+							<modifiedByUser>TOUCHED_BY_USER</modifiedByUser>
 							<presetVariant>SEC_TYPE_LEVEL</presetVariant>
 							<AttachedOrderData varName="attachedOrder" version="2" autoStopOffset="#" autoStopOffsetUnit="0" autoStopLmtOffset="#" autoStopLmtOffsetUnit="0" autoTrailingAmt="#" stopProfitTriggerOffset="#" stopProfitTriggerOffsetUnit="0" adjustedStopPriceOffset="#" adjustedStopPriceOffsetUnit="0" adjustedStopLmtPriceOffset="#" adjustedStopLmtPriceOffsetUnit="0" adjustedTrailingAmt="#" autoLmtOffset="#" autoLmtOffsetUnit="0" autoLmtSize="0" reverseStop="true" reverseTarget="true" reverseScale="true" reverseBracket="true">
 								<autoStop>NONE</autoStop>
@@ -1889,14 +1933,14 @@
 								<String>HKD</String>
 							</ArString>
 							<Attributes varName="attribs">
-								<TouchedTrigger val="1.0" allowZero="false"/>
 								<CommissionPolicy>
 									<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 								</CommissionPolicy>
-								<OpenCloseAttrib val="C"/>
 								<TriggerMethod>
 									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 								</TriggerMethod>
+								<OpenCloseAttrib val="C"/>
+								<TouchedTrigger val="1.0" allowZero="false"/>
 							</Attributes>
 							<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 							<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -1964,6 +2008,7 @@
 									<priceTypeExt>None</priceTypeExt>
 								</PriceTypeQuantityUnit>
 							</AttachedOrderData2>
+							<modifiedByUser>TOUCHED_BY_USER</modifiedByUser>
 							<presetVariant>SEC_TYPE_LEVEL</presetVariant>
 							<AttachedOrderData varName="attachedOrder" version="2" autoStopOffset="#" autoStopOffsetUnit="0" autoStopLmtOffset="#" autoStopLmtOffsetUnit="0" autoTrailingAmt="#" stopProfitTriggerOffset="#" stopProfitTriggerOffsetUnit="0" adjustedStopPriceOffset="#" adjustedStopPriceOffsetUnit="0" adjustedStopLmtPriceOffset="#" adjustedStopLmtPriceOffsetUnit="0" adjustedTrailingAmt="#" autoLmtOffset="#" autoLmtOffsetUnit="0" autoLmtSize="0" reverseStop="true" reverseTarget="true" reverseScale="true" reverseBracket="true">
 								<autoStop>NONE</autoStop>
@@ -1987,14 +2032,14 @@
 								<String>KRW</String>
 							</ArString>
 							<Attributes varName="attribs">
-								<TouchedTrigger val="1.0" allowZero="false"/>
 								<CommissionPolicy>
 									<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 								</CommissionPolicy>
-								<OpenCloseAttrib val="C"/>
 								<TriggerMethod>
 									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 								</TriggerMethod>
+								<OpenCloseAttrib val="C"/>
+								<TouchedTrigger val="1.0" allowZero="false"/>
 							</Attributes>
 							<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 							<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -2062,6 +2107,7 @@
 									<priceTypeExt>None</priceTypeExt>
 								</PriceTypeQuantityUnit>
 							</AttachedOrderData2>
+							<modifiedByUser>TOUCHED_BY_USER</modifiedByUser>
 							<presetVariant>SEC_TYPE_LEVEL</presetVariant>
 							<AttachedOrderData varName="attachedOrder" version="2" autoStopOffset="#" autoStopOffsetUnit="0" autoStopLmtOffset="#" autoStopLmtOffsetUnit="0" autoTrailingAmt="#" stopProfitTriggerOffset="#" stopProfitTriggerOffsetUnit="0" adjustedStopPriceOffset="#" adjustedStopPriceOffsetUnit="0" adjustedStopLmtPriceOffset="#" adjustedStopLmtPriceOffsetUnit="0" adjustedTrailingAmt="#" autoLmtOffset="#" autoLmtOffsetUnit="0" autoLmtSize="0" reverseStop="true" reverseTarget="true" reverseScale="true" reverseBracket="true">
 								<autoStop>NONE</autoStop>
@@ -2085,14 +2131,14 @@
 								<String>MXN</String>
 							</ArString>
 							<Attributes varName="attribs">
-								<TouchedTrigger val="1.0" allowZero="false"/>
 								<CommissionPolicy>
 									<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 								</CommissionPolicy>
-								<OpenCloseAttrib val="C"/>
 								<TriggerMethod>
 									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 								</TriggerMethod>
+								<OpenCloseAttrib val="C"/>
+								<TouchedTrigger val="1.0" allowZero="false"/>
 							</Attributes>
 							<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 							<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -2160,6 +2206,7 @@
 									<priceTypeExt>None</priceTypeExt>
 								</PriceTypeQuantityUnit>
 							</AttachedOrderData2>
+							<modifiedByUser>TOUCHED_BY_USER</modifiedByUser>
 							<presetVariant>SEC_TYPE_LEVEL</presetVariant>
 							<AttachedOrderData varName="attachedOrder" version="2" autoStopOffset="#" autoStopOffsetUnit="0" autoStopLmtOffset="#" autoStopLmtOffsetUnit="0" autoTrailingAmt="#" stopProfitTriggerOffset="#" stopProfitTriggerOffsetUnit="0" adjustedStopPriceOffset="#" adjustedStopPriceOffsetUnit="0" adjustedStopLmtPriceOffset="#" adjustedStopLmtPriceOffsetUnit="0" adjustedTrailingAmt="#" autoLmtOffset="#" autoLmtOffsetUnit="0" autoLmtSize="0" reverseStop="true" reverseTarget="true" reverseScale="true" reverseBracket="true">
 								<autoStop>NONE</autoStop>
@@ -2183,14 +2230,14 @@
 								<String>NOK</String>
 							</ArString>
 							<Attributes varName="attribs">
-								<TouchedTrigger val="1.0" allowZero="false"/>
 								<CommissionPolicy>
 									<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 								</CommissionPolicy>
-								<OpenCloseAttrib val="C"/>
 								<TriggerMethod>
 									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 								</TriggerMethod>
+								<OpenCloseAttrib val="C"/>
+								<TouchedTrigger val="1.0" allowZero="false"/>
 							</Attributes>
 							<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 							<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -2258,6 +2305,7 @@
 									<priceTypeExt>None</priceTypeExt>
 								</PriceTypeQuantityUnit>
 							</AttachedOrderData2>
+							<modifiedByUser>TOUCHED_BY_USER</modifiedByUser>
 							<presetVariant>SEC_TYPE_LEVEL</presetVariant>
 							<AttachedOrderData varName="attachedOrder" version="2" autoStopOffset="#" autoStopOffsetUnit="0" autoStopLmtOffset="#" autoStopLmtOffsetUnit="0" autoTrailingAmt="#" stopProfitTriggerOffset="#" stopProfitTriggerOffsetUnit="0" adjustedStopPriceOffset="#" adjustedStopPriceOffsetUnit="0" adjustedStopLmtPriceOffset="#" adjustedStopLmtPriceOffsetUnit="0" adjustedTrailingAmt="#" autoLmtOffset="#" autoLmtOffsetUnit="0" autoLmtSize="0" reverseStop="true" reverseTarget="true" reverseScale="true" reverseBracket="true">
 								<autoStop>NONE</autoStop>
@@ -2281,14 +2329,14 @@
 								<String>NZD</String>
 							</ArString>
 							<Attributes varName="attribs">
-								<TouchedTrigger val="1.0" allowZero="false"/>
 								<CommissionPolicy>
 									<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 								</CommissionPolicy>
-								<OpenCloseAttrib val="C"/>
 								<TriggerMethod>
 									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 								</TriggerMethod>
+								<OpenCloseAttrib val="C"/>
+								<TouchedTrigger val="1.0" allowZero="false"/>
 							</Attributes>
 							<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 							<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -2356,6 +2404,7 @@
 									<priceTypeExt>None</priceTypeExt>
 								</PriceTypeQuantityUnit>
 							</AttachedOrderData2>
+							<modifiedByUser>TOUCHED_BY_USER</modifiedByUser>
 							<presetVariant>SEC_TYPE_LEVEL</presetVariant>
 							<AttachedOrderData varName="attachedOrder" version="2" autoStopOffset="#" autoStopOffsetUnit="0" autoStopLmtOffset="#" autoStopLmtOffsetUnit="0" autoTrailingAmt="#" stopProfitTriggerOffset="#" stopProfitTriggerOffsetUnit="0" adjustedStopPriceOffset="#" adjustedStopPriceOffsetUnit="0" adjustedStopLmtPriceOffset="#" adjustedStopLmtPriceOffsetUnit="0" adjustedTrailingAmt="#" autoLmtOffset="#" autoLmtOffsetUnit="0" autoLmtSize="0" reverseStop="true" reverseTarget="true" reverseScale="true" reverseBracket="true">
 								<autoStop>NONE</autoStop>
@@ -2379,14 +2428,14 @@
 								<String>RUB</String>
 							</ArString>
 							<Attributes varName="attribs">
-								<TouchedTrigger val="1.0" allowZero="false"/>
 								<CommissionPolicy>
 									<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 								</CommissionPolicy>
-								<OpenCloseAttrib val="C"/>
 								<TriggerMethod>
 									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 								</TriggerMethod>
+								<OpenCloseAttrib val="C"/>
+								<TouchedTrigger val="1.0" allowZero="false"/>
 							</Attributes>
 							<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 							<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -2454,6 +2503,7 @@
 									<priceTypeExt>None</priceTypeExt>
 								</PriceTypeQuantityUnit>
 							</AttachedOrderData2>
+							<modifiedByUser>TOUCHED_BY_USER</modifiedByUser>
 							<presetVariant>SEC_TYPE_LEVEL</presetVariant>
 							<AttachedOrderData varName="attachedOrder" version="2" autoStopOffset="#" autoStopOffsetUnit="0" autoStopLmtOffset="#" autoStopLmtOffsetUnit="0" autoTrailingAmt="#" stopProfitTriggerOffset="#" stopProfitTriggerOffsetUnit="0" adjustedStopPriceOffset="#" adjustedStopPriceOffsetUnit="0" adjustedStopLmtPriceOffset="#" adjustedStopLmtPriceOffsetUnit="0" adjustedTrailingAmt="#" autoLmtOffset="#" autoLmtOffsetUnit="0" autoLmtSize="0" reverseStop="true" reverseTarget="true" reverseScale="true" reverseBracket="true">
 								<autoStop>NONE</autoStop>
@@ -2477,14 +2527,14 @@
 								<String>SEK</String>
 							</ArString>
 							<Attributes varName="attribs">
-								<TouchedTrigger val="1.0" allowZero="false"/>
 								<CommissionPolicy>
 									<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 								</CommissionPolicy>
-								<OpenCloseAttrib val="C"/>
 								<TriggerMethod>
 									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 								</TriggerMethod>
+								<OpenCloseAttrib val="C"/>
+								<TouchedTrigger val="1.0" allowZero="false"/>
 							</Attributes>
 							<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 							<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -2552,6 +2602,7 @@
 									<priceTypeExt>None</priceTypeExt>
 								</PriceTypeQuantityUnit>
 							</AttachedOrderData2>
+							<modifiedByUser>TOUCHED_BY_USER</modifiedByUser>
 							<presetVariant>SEC_TYPE_LEVEL</presetVariant>
 							<AttachedOrderData varName="attachedOrder" version="2" autoStopOffset="#" autoStopOffsetUnit="0" autoStopLmtOffset="#" autoStopLmtOffsetUnit="0" autoTrailingAmt="#" stopProfitTriggerOffset="#" stopProfitTriggerOffsetUnit="0" adjustedStopPriceOffset="#" adjustedStopPriceOffsetUnit="0" adjustedStopLmtPriceOffset="#" adjustedStopLmtPriceOffsetUnit="0" adjustedTrailingAmt="#" autoLmtOffset="#" autoLmtOffsetUnit="0" autoLmtSize="0" reverseStop="true" reverseTarget="true" reverseScale="true" reverseBracket="true">
 								<autoStop>NONE</autoStop>
@@ -2575,14 +2626,14 @@
 								<String>SGD</String>
 							</ArString>
 							<Attributes varName="attribs">
-								<TouchedTrigger val="1.0" allowZero="false"/>
 								<CommissionPolicy>
 									<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 								</CommissionPolicy>
-								<OpenCloseAttrib val="C"/>
 								<TriggerMethod>
 									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 								</TriggerMethod>
+								<OpenCloseAttrib val="C"/>
+								<TouchedTrigger val="1.0" allowZero="false"/>
 							</Attributes>
 							<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 							<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -2650,6 +2701,7 @@
 									<priceTypeExt>None</priceTypeExt>
 								</PriceTypeQuantityUnit>
 							</AttachedOrderData2>
+							<modifiedByUser>TOUCHED_BY_USER</modifiedByUser>
 							<presetVariant>SEC_TYPE_LEVEL</presetVariant>
 							<AttachedOrderData varName="attachedOrder" version="2" autoStopOffset="#" autoStopOffsetUnit="0" autoStopLmtOffset="#" autoStopLmtOffsetUnit="0" autoTrailingAmt="#" stopProfitTriggerOffset="#" stopProfitTriggerOffsetUnit="0" adjustedStopPriceOffset="#" adjustedStopPriceOffsetUnit="0" adjustedStopLmtPriceOffset="#" adjustedStopLmtPriceOffsetUnit="0" adjustedTrailingAmt="#" autoLmtOffset="#" autoLmtOffsetUnit="0" autoLmtSize="0" reverseStop="true" reverseTarget="true" reverseScale="true" reverseBracket="true">
 								<autoStop>NONE</autoStop>
@@ -2673,14 +2725,14 @@
 								<String>USD</String>
 							</ArString>
 							<Attributes varName="attribs">
-								<TouchedTrigger val="1.0" allowZero="false"/>
 								<CommissionPolicy>
 									<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 								</CommissionPolicy>
-								<OpenCloseAttrib val="C"/>
 								<TriggerMethod>
 									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 								</TriggerMethod>
+								<OpenCloseAttrib val="C"/>
+								<TouchedTrigger val="1.0" allowZero="false"/>
 							</Attributes>
 							<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 							<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -2748,6 +2800,7 @@
 									<priceTypeExt>None</priceTypeExt>
 								</PriceTypeQuantityUnit>
 							</AttachedOrderData2>
+							<modifiedByUser>TOUCHED_BY_USER</modifiedByUser>
 							<presetVariant>SEC_TYPE_LEVEL</presetVariant>
 							<AttachedOrderData varName="attachedOrder" version="2" autoStopOffset="#" autoStopOffsetUnit="0" autoStopLmtOffset="#" autoStopLmtOffsetUnit="0" autoTrailingAmt="#" stopProfitTriggerOffset="#" stopProfitTriggerOffsetUnit="0" adjustedStopPriceOffset="#" adjustedStopPriceOffsetUnit="0" adjustedStopLmtPriceOffset="#" adjustedStopLmtPriceOffsetUnit="0" adjustedTrailingAmt="#" autoLmtOffset="#" autoLmtOffsetUnit="0" autoLmtSize="0" reverseStop="true" reverseTarget="true" reverseScale="true" reverseBracket="true">
 								<autoStop>NONE</autoStop>
@@ -2771,14 +2824,14 @@
 								<String>ZAR</String>
 							</ArString>
 							<Attributes varName="attribs">
-								<TouchedTrigger val="1.0" allowZero="false"/>
 								<CommissionPolicy>
 									<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 								</CommissionPolicy>
-								<OpenCloseAttrib val="C"/>
 								<TriggerMethod>
 									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 								</TriggerMethod>
+								<OpenCloseAttrib val="C"/>
+								<TouchedTrigger val="1.0" allowZero="false"/>
 							</Attributes>
 							<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 							<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -2846,6 +2899,7 @@
 									<priceTypeExt>None</priceTypeExt>
 								</PriceTypeQuantityUnit>
 							</AttachedOrderData2>
+							<modifiedByUser>TOUCHED_BY_USER</modifiedByUser>
 							<presetVariant>SEC_TYPE_LEVEL</presetVariant>
 							<AttachedOrderData varName="attachedOrder" version="2" autoStopOffset="#" autoStopOffsetUnit="0" autoStopLmtOffset="#" autoStopLmtOffsetUnit="0" autoTrailingAmt="#" stopProfitTriggerOffset="#" stopProfitTriggerOffsetUnit="0" adjustedStopPriceOffset="#" adjustedStopPriceOffsetUnit="0" adjustedStopLmtPriceOffset="#" adjustedStopLmtPriceOffsetUnit="0" adjustedTrailingAmt="#" autoLmtOffset="#" autoLmtOffsetUnit="0" autoLmtSize="0" reverseStop="true" reverseTarget="true" reverseScale="true" reverseBracket="true">
 								<autoStop>NONE</autoStop>
@@ -2868,14 +2922,14 @@
 					<startTime></startTime>
 					<endTime></endTime>
 					<Attributes varName="attribs">
-						<TouchedTrigger val="1.0" allowZero="false"/>
 						<CommissionPolicy>
 							<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 						</CommissionPolicy>
-						<OpenCloseAttrib val="C"/>
 						<TriggerMethod>
 							<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 						</TriggerMethod>
+						<OpenCloseAttrib val="C"/>
+						<TouchedTrigger val="1.0" allowZero="false"/>
 					</Attributes>
 					<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 					<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -2943,6 +2997,7 @@
 							<priceTypeExt>None</priceTypeExt>
 						</PriceTypeQuantityUnit>
 					</AttachedOrderData2>
+					<modifiedByUser>TOUCHED_BY_USER</modifiedByUser>
 					<presetVariant>SEC_TYPE_LEVEL</presetVariant>
 					<AttachedOrderData varName="attachedOrder" version="2" autoStopOffset="#" autoStopOffsetUnit="0" autoStopLmtOffset="#" autoStopLmtOffsetUnit="0" autoTrailingAmt="#" stopProfitTriggerOffset="#" stopProfitTriggerOffsetUnit="0" adjustedStopPriceOffset="#" adjustedStopPriceOffsetUnit="0" adjustedStopLmtPriceOffset="#" adjustedStopLmtPriceOffsetUnit="0" adjustedTrailingAmt="#" autoLmtOffset="#" autoLmtOffsetUnit="0" autoLmtSize="0" reverseStop="true" reverseTarget="true" reverseScale="true" reverseBracket="true">
 						<autoStop>NONE</autoStop>
@@ -2963,14 +3018,14 @@
 					<startTime></startTime>
 					<endTime></endTime>
 					<Attributes varName="attribs">
-						<TouchedTrigger val="1.0" allowZero="false"/>
 						<CommissionPolicy>
 							<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 						</CommissionPolicy>
-						<OpenCloseAttrib val="C"/>
 						<TriggerMethod>
 							<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 						</TriggerMethod>
+						<OpenCloseAttrib val="C"/>
+						<TouchedTrigger val="1.0" allowZero="false"/>
 					</Attributes>
 					<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 					<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -3038,6 +3093,7 @@
 							<priceTypeExt>None</priceTypeExt>
 						</PriceTypeQuantityUnit>
 					</AttachedOrderData2>
+					<modifiedByUser>TOUCHED_BY_USER</modifiedByUser>
 					<presetVariant>SEC_TYPE_LEVEL</presetVariant>
 					<AttachedOrderData varName="attachedOrder" version="2" autoStopOffset="#" autoStopOffsetUnit="0" autoStopLmtOffset="#" autoStopLmtOffsetUnit="0" autoTrailingAmt="#" stopProfitTriggerOffset="#" stopProfitTriggerOffsetUnit="0" adjustedStopPriceOffset="#" adjustedStopPriceOffsetUnit="0" adjustedStopLmtPriceOffset="#" adjustedStopLmtPriceOffsetUnit="0" adjustedTrailingAmt="#" autoLmtOffset="#" autoLmtOffsetUnit="0" autoLmtSize="0" reverseStop="true" reverseTarget="true" reverseScale="true" reverseBracket="true">
 						<autoStop>NONE</autoStop>
@@ -3058,14 +3114,14 @@
 					<startTime></startTime>
 					<endTime></endTime>
 					<Attributes varName="attribs">
-						<TouchedTrigger val="1.0" allowZero="false"/>
 						<CommissionPolicy>
 							<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 						</CommissionPolicy>
-						<OpenCloseAttrib val="C"/>
 						<TriggerMethod>
 							<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 						</TriggerMethod>
+						<OpenCloseAttrib val="C"/>
+						<TouchedTrigger val="1.0" allowZero="false"/>
 					</Attributes>
 					<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 					<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -3133,6 +3189,7 @@
 							<priceTypeExt>None</priceTypeExt>
 						</PriceTypeQuantityUnit>
 					</AttachedOrderData2>
+					<modifiedByUser>TOUCHED_BY_USER</modifiedByUser>
 					<presetVariant>SEC_TYPE_LEVEL</presetVariant>
 					<AttachedOrderData varName="attachedOrder" version="2" autoStopOffset="#" autoStopOffsetUnit="0" autoStopLmtOffset="#" autoStopLmtOffsetUnit="0" autoTrailingAmt="#" stopProfitTriggerOffset="#" stopProfitTriggerOffsetUnit="0" adjustedStopPriceOffset="#" adjustedStopPriceOffsetUnit="0" adjustedStopLmtPriceOffset="#" adjustedStopLmtPriceOffsetUnit="0" adjustedTrailingAmt="#" autoLmtOffset="#" autoLmtOffsetUnit="0" autoLmtSize="0" reverseStop="true" reverseTarget="true" reverseScale="true" reverseBracket="true">
 						<autoStop>NONE</autoStop>
@@ -3153,11 +3210,11 @@
 					<startTime></startTime>
 					<endTime></endTime>
 					<Attributes varName="attribs">
-						<TouchedTrigger val="1.0" allowZero="false"/>
 						<CommissionPolicy>
 							<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 						</CommissionPolicy>
 						<MonetaryValue val="3000.0"/>
+						<TouchedTrigger val="1.0" allowZero="false"/>
 					</Attributes>
 					<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 					<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -3225,6 +3282,7 @@
 							<priceTypeExt>None</priceTypeExt>
 						</PriceTypeQuantityUnit>
 					</AttachedOrderData2>
+					<modifiedByUser>TOUCHED_BY_USER</modifiedByUser>
 					<presetVariant>SEC_TYPE_LEVEL</presetVariant>
 					<AttachedOrderData varName="attachedOrder" version="2" autoStopOffset="#" autoStopOffsetUnit="0" autoStopLmtOffset="#" autoStopLmtOffsetUnit="0" autoTrailingAmt="#" stopProfitTriggerOffset="#" stopProfitTriggerOffsetUnit="0" adjustedStopPriceOffset="#" adjustedStopPriceOffsetUnit="0" adjustedStopLmtPriceOffset="#" adjustedStopLmtPriceOffsetUnit="0" adjustedTrailingAmt="#" autoLmtOffset="#" autoLmtOffsetUnit="0" autoLmtSize="0" reverseStop="true" reverseTarget="true" reverseScale="true" reverseBracket="true">
 						<autoStop>NONE</autoStop>
@@ -3245,14 +3303,14 @@
 					<startTime></startTime>
 					<endTime></endTime>
 					<Attributes varName="attribs">
-						<TouchedTrigger val="1.0" allowZero="false"/>
 						<CommissionPolicy>
 							<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 						</CommissionPolicy>
-						<OpenCloseAttrib val="C"/>
 						<TriggerMethod>
 							<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 						</TriggerMethod>
+						<OpenCloseAttrib val="C"/>
+						<TouchedTrigger val="1.0" allowZero="false"/>
 					</Attributes>
 					<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 					<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -3320,6 +3378,7 @@
 							<priceTypeExt>None</priceTypeExt>
 						</PriceTypeQuantityUnit>
 					</AttachedOrderData2>
+					<modifiedByUser>TOUCHED_BY_USER</modifiedByUser>
 					<presetVariant>SEC_TYPE_LEVEL</presetVariant>
 					<AttachedOrderData varName="attachedOrder" version="2" autoStopOffset="#" autoStopOffsetUnit="0" autoStopLmtOffset="#" autoStopLmtOffsetUnit="0" autoTrailingAmt="#" stopProfitTriggerOffset="#" stopProfitTriggerOffsetUnit="0" adjustedStopPriceOffset="#" adjustedStopPriceOffsetUnit="0" adjustedStopLmtPriceOffset="#" adjustedStopLmtPriceOffsetUnit="0" adjustedTrailingAmt="#" autoLmtOffset="#" autoLmtOffsetUnit="0" autoLmtSize="0" reverseStop="true" reverseTarget="true" reverseScale="true" reverseBracket="true">
 						<autoStop>NONE</autoStop>
@@ -3340,14 +3399,14 @@
 					<startTime></startTime>
 					<endTime></endTime>
 					<Attributes varName="attribs">
-						<TouchedTrigger val="1.0" allowZero="false"/>
 						<CommissionPolicy>
 							<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 						</CommissionPolicy>
-						<OpenCloseAttrib val="C"/>
 						<TriggerMethod>
 							<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 						</TriggerMethod>
+						<OpenCloseAttrib val="C"/>
+						<TouchedTrigger val="1.0" allowZero="false"/>
 					</Attributes>
 					<OCAType varName="ocaType" fixString="ReduceOnFillNonBlock"/>
 					<AlgoExchangeSettings varName="algoExchangeSettings">
@@ -3415,6 +3474,7 @@
 							<priceTypeExt>None</priceTypeExt>
 						</PriceTypeQuantityUnit>
 					</AttachedOrderData2>
+					<modifiedByUser>TOUCHED_BY_USER</modifiedByUser>
 					<presetVariant>SEC_TYPE_LEVEL</presetVariant>
 					<AttachedOrderData varName="attachedOrder" version="2" autoStopOffset="#" autoStopOffsetUnit="0" autoStopLmtOffset="#" autoStopLmtOffsetUnit="0" autoTrailingAmt="#" stopProfitTriggerOffset="#" stopProfitTriggerOffsetUnit="0" adjustedStopPriceOffset="#" adjustedStopPriceOffsetUnit="0" adjustedStopLmtPriceOffset="#" adjustedStopLmtPriceOffsetUnit="0" adjustedTrailingAmt="#" autoLmtOffset="#" autoLmtOffsetUnit="0" autoLmtSize="0" reverseStop="true" reverseTarget="true" reverseScale="true" reverseBracket="true">
 						<autoStop>NONE</autoStop>
@@ -3437,6 +3497,7 @@
 		<ArLinkPattern varName="arLinkPattern"/>
 		<RSSFreshnessColors varName="rssColors" minutes="-1" hours="-3342337" days="-13369345" weeks="-16763956"/>
 		<NewsAlternationDelay varName="newsAlternationDelay" delay="10000"/>
+		<calendarRegion>US</calendarRegion>
 		<ArString varName="readTopNews"/>
 		<MapOfStrings varName="checkedNewsSources"/>
 	</NewsSettings>
@@ -3445,6 +3506,7 @@
 		<ArLinkPattern varName="arLinkPattern"/>
 		<RSSFreshnessColors varName="rssColors" minutes="-1" hours="-3342337" days="-13369345" weeks="-16763956"/>
 		<NewsAlternationDelay varName="newsAlternationDelay" delay="10000"/>
+		<calendarRegion>US</calendarRegion>
 		<ArString varName="readTopNews"/>
 		<MapOfStrings varName="checkedNewsSources"/>
 	</APINewsSettings>
@@ -3542,9 +3604,9 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 					<Product secType="IND"/>
 					<Boolean>false</Boolean>
@@ -3558,8 +3620,6 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="STK"/>
 					<Boolean>false</Boolean>
 					<Product secType="CFD"/>
@@ -3567,6 +3627,8 @@
 					<Product secType="OPT"/>
 					<Boolean>false</Boolean>
 					<Product secType="WAR"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 				</ProductPreferenceMap>
 				<HomeExchangeGroup varName="homeExchangeGroup" shortName="LSE" longName="London Stock Exchange" isGroup="false">
@@ -3578,8 +3640,6 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="STK"/>
 					<Boolean>false</Boolean>
 					<Product secType="CFD"/>
@@ -3587,6 +3647,8 @@
 					<Product secType="OPT"/>
 					<Boolean>false</Boolean>
 					<Product secType="WAR"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 				</ProductPreferenceMap>
 				<HomeExchangeGroup varName="homeExchangeGroup" shortName="MXSTK" longName="Mexico Stocks" isGroup="true">
@@ -3598,8 +3660,6 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="STK"/>
 					<Boolean>false</Boolean>
 					<Product secType="CFD"/>
@@ -3607,6 +3667,8 @@
 					<Product secType="OPT"/>
 					<Boolean>false</Boolean>
 					<Product secType="WAR"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 				</ProductPreferenceMap>
 				<HomeExchangeGroup varName="homeExchangeGroup" shortName="IBIS2" longName="IBIS for CBL settlement" isGroup="false">
@@ -3618,8 +3680,6 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="STK"/>
 					<Boolean>false</Boolean>
 					<Product secType="CFD"/>
@@ -3627,6 +3687,8 @@
 					<Product secType="OPT"/>
 					<Boolean>false</Boolean>
 					<Product secType="WAR"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 				</ProductPreferenceMap>
 				<HomeExchangeGroup varName="homeExchangeGroup" shortName="CHIXUK" longName="CHI-X Europe Ltd Crest" isGroup="false">
@@ -3638,8 +3700,6 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="STK"/>
 					<Boolean>false</Boolean>
 					<Product secType="CFD"/>
@@ -3648,8 +3708,30 @@
 					<Boolean>false</Boolean>
 					<Product secType="WAR"/>
 					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
+					<Boolean>false</Boolean>
 				</ProductPreferenceMap>
 				<HomeExchangeGroup varName="homeExchangeGroup" shortName="AEB" longName="Amsterdamse Effectenbeurs" isGroup="false">
+					<exchangeType>STOCK</exchangeType>
+				</HomeExchangeGroup>
+			</ProductPreferences>
+			<HomeExchangeGroup shortName="WSE" longName="Warsaw Stock Exchange" isGroup="false">
+				<exchangeType>STOCK</exchangeType>
+			</HomeExchangeGroup>
+			<ProductPreferences>
+				<ProductPreferenceMap varName="preferred">
+					<Product secType="STK"/>
+					<Boolean>false</Boolean>
+					<Product secType="CFD"/>
+					<Boolean>false</Boolean>
+					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="WAR"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
+					<Boolean>false</Boolean>
+				</ProductPreferenceMap>
+				<HomeExchangeGroup varName="homeExchangeGroup" shortName="WSE" longName="Warsaw Stock Exchange" isGroup="false">
 					<exchangeType>STOCK</exchangeType>
 				</HomeExchangeGroup>
 			</ProductPreferences>
@@ -3658,9 +3740,9 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 					<Product secType="IND"/>
 					<Boolean>false</Boolean>
@@ -3674,9 +3756,9 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 					<Product secType="IND"/>
 					<Boolean>false</Boolean>
@@ -3690,8 +3772,6 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="STK"/>
 					<Boolean>false</Boolean>
 					<Product secType="CFD"/>
@@ -3699,6 +3779,8 @@
 					<Product secType="OPT"/>
 					<Boolean>false</Boolean>
 					<Product secType="WAR"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 				</ProductPreferenceMap>
 				<HomeExchangeGroup varName="homeExchangeGroup" shortName="CHIXCH" longName="CHI-X Europe Ltd Swiss" isGroup="false">
@@ -3710,9 +3792,9 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 					<Product secType="IND"/>
 					<Boolean>false</Boolean>
@@ -3726,9 +3808,9 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 					<Product secType="IND"/>
 					<Boolean>false</Boolean>
@@ -3742,9 +3824,9 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 					<Product secType="IND"/>
 					<Boolean>false</Boolean>
@@ -3753,13 +3835,11 @@
 					<exchangeType>INDEX</exchangeType>
 				</HomeExchangeGroup>
 			</ProductPreferences>
-			<HomeExchangeGroup shortName="SBF" longName="Society des Bourses Francaises" isGroup="false">
+			<HomeExchangeGroup shortName="LSEETF" longName="ETF segment on LSE" isGroup="false">
 				<exchangeType>STOCK</exchangeType>
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="STK"/>
 					<Boolean>false</Boolean>
 					<Product secType="CFD"/>
@@ -3767,6 +3847,28 @@
 					<Product secType="OPT"/>
 					<Boolean>false</Boolean>
 					<Product secType="WAR"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
+					<Boolean>false</Boolean>
+				</ProductPreferenceMap>
+				<HomeExchangeGroup varName="homeExchangeGroup" shortName="LSEETF" longName="ETF segment on LSE" isGroup="false">
+					<exchangeType>STOCK</exchangeType>
+				</HomeExchangeGroup>
+			</ProductPreferences>
+			<HomeExchangeGroup shortName="SBF" longName="Society des Bourses Francaises" isGroup="false">
+				<exchangeType>STOCK</exchangeType>
+			</HomeExchangeGroup>
+			<ProductPreferences>
+				<ProductPreferenceMap varName="preferred">
+					<Product secType="STK"/>
+					<Boolean>false</Boolean>
+					<Product secType="CFD"/>
+					<Boolean>false</Boolean>
+					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="WAR"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 				</ProductPreferenceMap>
 				<HomeExchangeGroup varName="homeExchangeGroup" shortName="SBF" longName="Society des Bourses Francaises" isGroup="false">
@@ -3778,9 +3880,9 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 					<Product secType="IND"/>
 					<Boolean>false</Boolean>
@@ -3789,14 +3891,74 @@
 					<exchangeType>INDEX</exchangeType>
 				</HomeExchangeGroup>
 			</ProductPreferences>
+			<HomeExchangeGroup shortName="OSE" longName="Oslo Stock Exchange" isGroup="false">
+				<exchangeType>STOCK</exchangeType>
+			</HomeExchangeGroup>
+			<ProductPreferences>
+				<ProductPreferenceMap varName="preferred">
+					<Product secType="STK"/>
+					<Boolean>false</Boolean>
+					<Product secType="CFD"/>
+					<Boolean>false</Boolean>
+					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="WAR"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
+					<Boolean>false</Boolean>
+				</ProductPreferenceMap>
+				<HomeExchangeGroup varName="homeExchangeGroup" shortName="OSE" longName="Oslo Stock Exchange" isGroup="false">
+					<exchangeType>STOCK</exchangeType>
+				</HomeExchangeGroup>
+			</ProductPreferences>
+			<HomeExchangeGroup shortName="ENEXT.BE" longName="Euronext Belgium" isGroup="false">
+				<exchangeType>STOCK</exchangeType>
+			</HomeExchangeGroup>
+			<ProductPreferences>
+				<ProductPreferenceMap varName="preferred">
+					<Product secType="STK"/>
+					<Boolean>false</Boolean>
+					<Product secType="CFD"/>
+					<Boolean>false</Boolean>
+					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="WAR"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
+					<Boolean>false</Boolean>
+				</ProductPreferenceMap>
+				<HomeExchangeGroup varName="homeExchangeGroup" shortName="ENEXT.BE" longName="Euronext Belgium" isGroup="false">
+					<exchangeType>STOCK</exchangeType>
+				</HomeExchangeGroup>
+			</ProductPreferences>
+			<HomeExchangeGroup shortName="BUX" longName="Budapest Stock Exchange" isGroup="false">
+				<exchangeType>STOCK</exchangeType>
+			</HomeExchangeGroup>
+			<ProductPreferences>
+				<ProductPreferenceMap varName="preferred">
+					<Product secType="STK"/>
+					<Boolean>false</Boolean>
+					<Product secType="CFD"/>
+					<Boolean>false</Boolean>
+					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="WAR"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
+					<Boolean>false</Boolean>
+				</ProductPreferenceMap>
+				<HomeExchangeGroup varName="homeExchangeGroup" shortName="BUX" longName="Budapest Stock Exchange" isGroup="false">
+					<exchangeType>STOCK</exchangeType>
+				</HomeExchangeGroup>
+			</ProductPreferences>
 			<HomeExchangeGroup shortName="OSE.JPN" longName="Osaka Stock Exchange" isGroup="false">
 				<exchangeType>INDEX</exchangeType>
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 					<Product secType="IND"/>
 					<Boolean>false</Boolean>
@@ -3805,18 +3967,54 @@
 					<exchangeType>INDEX</exchangeType>
 				</HomeExchangeGroup>
 			</ProductPreferences>
+			<HomeExchangeGroup shortName="TPLUS2" longName="T + 2 Settlement Trades" isGroup="false">
+				<exchangeType>STOCK</exchangeType>
+			</HomeExchangeGroup>
+			<ProductPreferences>
+				<ProductPreferenceMap varName="preferred">
+					<Product secType="STK"/>
+					<Boolean>false</Boolean>
+					<Product secType="CFD"/>
+					<Boolean>false</Boolean>
+					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="WAR"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
+					<Boolean>false</Boolean>
+				</ProductPreferenceMap>
+				<HomeExchangeGroup varName="homeExchangeGroup" shortName="TPLUS2" longName="T + 2 Settlement Trades" isGroup="false">
+					<exchangeType>STOCK</exchangeType>
+				</HomeExchangeGroup>
+			</ProductPreferences>
 			<HomeExchangeGroup shortName="HKMEX" longName="Hong Kong Mercantile Exchange" isGroup="false">
 				<exchangeType>FUTURE</exchangeType>
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 				</ProductPreferenceMap>
 				<HomeExchangeGroup varName="homeExchangeGroup" shortName="HKMEX" longName="Hong Kong Mercantile Exchange" isGroup="false">
 					<exchangeType>FUTURE</exchangeType>
+				</HomeExchangeGroup>
+			</ProductPreferences>
+			<HomeExchangeGroup shortName="IBKRAM" longName="Interactive Brokers Asset Management" isGroup="false">
+				<exchangeType>INDEX</exchangeType>
+			</HomeExchangeGroup>
+			<ProductPreferences>
+				<ProductPreferenceMap varName="preferred">
+					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
+					<Boolean>false</Boolean>
+					<Product secType="IND"/>
+					<Boolean>false</Boolean>
+				</ProductPreferenceMap>
+				<HomeExchangeGroup varName="homeExchangeGroup" shortName="IBKRAM" longName="Interactive Brokers Asset Management" isGroup="false">
+					<exchangeType>INDEX</exchangeType>
 				</HomeExchangeGroup>
 			</ProductPreferences>
 			<HomeExchangeGroup shortName="ISE" longName="International Securities Exchange" isGroup="false">
@@ -3824,9 +4022,9 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 					<Product secType="IND"/>
 					<Boolean>false</Boolean>
@@ -3835,28 +4033,14 @@
 					<exchangeType>INDEX</exchangeType>
 				</HomeExchangeGroup>
 			</ProductPreferences>
-			<HomeExchangeGroup shortName="LSSF" longName="LIFFE Single Stock Futures Division" isGroup="false">
-				<exchangeType>FUTURE</exchangeType>
-			</HomeExchangeGroup>
-			<ProductPreferences>
-				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
-					<Product secType="OPT"/>
-					<Boolean>false</Boolean>
-				</ProductPreferenceMap>
-				<HomeExchangeGroup varName="homeExchangeGroup" shortName="LSSF" longName="LIFFE Single Stock Futures Division" isGroup="false">
-					<exchangeType>FUTURE</exchangeType>
-				</HomeExchangeGroup>
-			</ProductPreferences>
 			<HomeExchangeGroup shortName="CFE" longName="CBOE Futures Exchange" isGroup="false">
 				<exchangeType>INDEX</exchangeType>
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 					<Product secType="IND"/>
 					<Boolean>false</Boolean>
@@ -3870,8 +4054,6 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="STK"/>
 					<Boolean>false</Boolean>
 					<Product secType="CFD"/>
@@ -3880,8 +4062,30 @@
 					<Boolean>false</Boolean>
 					<Product secType="WAR"/>
 					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
+					<Boolean>false</Boolean>
 				</ProductPreferenceMap>
 				<HomeExchangeGroup varName="homeExchangeGroup" shortName="TRQXEN" longName="Turquoise Europe EN" isGroup="false">
+					<exchangeType>STOCK</exchangeType>
+				</HomeExchangeGroup>
+			</ProductPreferences>
+			<HomeExchangeGroup shortName="SEHKSZSE" longName="Hong Kong - Shenzhen Stock Exchange Northbound Trading Link" isGroup="false">
+				<exchangeType>STOCK</exchangeType>
+			</HomeExchangeGroup>
+			<ProductPreferences>
+				<ProductPreferenceMap varName="preferred">
+					<Product secType="STK"/>
+					<Boolean>false</Boolean>
+					<Product secType="CFD"/>
+					<Boolean>false</Boolean>
+					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="WAR"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
+					<Boolean>false</Boolean>
+				</ProductPreferenceMap>
+				<HomeExchangeGroup varName="homeExchangeGroup" shortName="SEHKSZSE" longName="Hong Kong - Shenzhen Stock Exchange Northbound Trading Link" isGroup="false">
 					<exchangeType>STOCK</exchangeType>
 				</HomeExchangeGroup>
 			</ProductPreferences>
@@ -3890,9 +4094,9 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 					<Product secType="IND"/>
 					<Boolean>false</Boolean>
@@ -3906,13 +4110,69 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 				</ProductPreferenceMap>
 				<HomeExchangeGroup varName="homeExchangeGroup" shortName="SGXCME" longName="Singapore Exchange - CME" isGroup="false">
 					<exchangeType>FUTURE</exchangeType>
+				</HomeExchangeGroup>
+			</ProductPreferences>
+			<HomeExchangeGroup shortName="IR" longName="Interest rate recording exchange" isGroup="false">
+				<exchangeType>INDEX</exchangeType>
+			</HomeExchangeGroup>
+			<ProductPreferences>
+				<ProductPreferenceMap varName="preferred">
+					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
+					<Boolean>false</Boolean>
+					<Product secType="IND"/>
+					<Boolean>false</Boolean>
+				</ProductPreferenceMap>
+				<HomeExchangeGroup varName="homeExchangeGroup" shortName="IR" longName="Interest rate recording exchange" isGroup="false">
+					<exchangeType>INDEX</exchangeType>
+				</HomeExchangeGroup>
+			</ProductPreferences>
+			<HomeExchangeGroup shortName="CPH" longName="Copenhagen Stock Exchange" isGroup="false">
+				<exchangeType>STOCK</exchangeType>
+			</HomeExchangeGroup>
+			<ProductPreferences>
+				<ProductPreferenceMap varName="preferred">
+					<Product secType="STK"/>
+					<Boolean>false</Boolean>
+					<Product secType="CFD"/>
+					<Boolean>false</Boolean>
+					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="WAR"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
+					<Boolean>false</Boolean>
+				</ProductPreferenceMap>
+				<HomeExchangeGroup varName="homeExchangeGroup" shortName="CPH" longName="Copenhagen Stock Exchange" isGroup="false">
+					<exchangeType>STOCK</exchangeType>
+				</HomeExchangeGroup>
+			</ProductPreferences>
+			<HomeExchangeGroup shortName="CHINEXT" longName="Chinext Shares on Shenzhen Stock Exchange" isGroup="false">
+				<exchangeType>STOCK</exchangeType>
+			</HomeExchangeGroup>
+			<ProductPreferences>
+				<ProductPreferenceMap varName="preferred">
+					<Product secType="STK"/>
+					<Boolean>false</Boolean>
+					<Product secType="CFD"/>
+					<Boolean>false</Boolean>
+					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="WAR"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
+					<Boolean>false</Boolean>
+				</ProductPreferenceMap>
+				<HomeExchangeGroup varName="homeExchangeGroup" shortName="CHINEXT" longName="Chinext Shares on Shenzhen Stock Exchange" isGroup="false">
+					<exchangeType>STOCK</exchangeType>
 				</HomeExchangeGroup>
 			</ProductPreferences>
 			<HomeExchangeGroup shortName="DTB" longName="Deutsche Terminborse" isGroup="false">
@@ -3920,9 +4180,9 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 					<Product secType="IND"/>
 					<Boolean>false</Boolean>
@@ -3936,8 +4196,6 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="STK"/>
 					<Boolean>false</Boolean>
 					<Product secType="CFD"/>
@@ -3945,6 +4203,8 @@
 					<Product secType="OPT"/>
 					<Boolean>false</Boolean>
 					<Product secType="WAR"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 				</ProductPreferenceMap>
 				<HomeExchangeGroup varName="homeExchangeGroup" shortName="NSE" longName="National Stock Exchange of India Limited" isGroup="false">
@@ -3956,9 +4216,9 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 					<Product secType="IND"/>
 					<Boolean>false</Boolean>
@@ -3967,14 +4227,54 @@
 					<exchangeType>INDEX</exchangeType>
 				</HomeExchangeGroup>
 			</ProductPreferences>
+			<HomeExchangeGroup shortName="BVME.ETF" longName="Borsa Italiana ETF" isGroup="false">
+				<exchangeType>STOCK</exchangeType>
+			</HomeExchangeGroup>
+			<ProductPreferences>
+				<ProductPreferenceMap varName="preferred">
+					<Product secType="STK"/>
+					<Boolean>false</Boolean>
+					<Product secType="CFD"/>
+					<Boolean>false</Boolean>
+					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="WAR"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
+					<Boolean>false</Boolean>
+				</ProductPreferenceMap>
+				<HomeExchangeGroup varName="homeExchangeGroup" shortName="BVME.ETF" longName="Borsa Italiana ETF" isGroup="false">
+					<exchangeType>STOCK</exchangeType>
+				</HomeExchangeGroup>
+			</ProductPreferences>
+			<HomeExchangeGroup shortName="TRQXUK" longName="Turquoise Europe United Kingdom" isGroup="false">
+				<exchangeType>STOCK</exchangeType>
+			</HomeExchangeGroup>
+			<ProductPreferences>
+				<ProductPreferenceMap varName="preferred">
+					<Product secType="STK"/>
+					<Boolean>false</Boolean>
+					<Product secType="CFD"/>
+					<Boolean>false</Boolean>
+					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="WAR"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
+					<Boolean>false</Boolean>
+				</ProductPreferenceMap>
+				<HomeExchangeGroup varName="homeExchangeGroup" shortName="TRQXUK" longName="Turquoise Europe United Kingdom" isGroup="false">
+					<exchangeType>STOCK</exchangeType>
+				</HomeExchangeGroup>
+			</ProductPreferences>
 			<HomeExchangeGroup shortName="MEXDER" longName="Mercado Mexicano de Derivados" isGroup="false">
 				<exchangeType>FUTURE</exchangeType>
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 				</ProductPreferenceMap>
 				<HomeExchangeGroup varName="homeExchangeGroup" shortName="MEXDER" longName="Mercado Mexicano de Derivados" isGroup="false">
@@ -3986,8 +4286,6 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="STK"/>
 					<Boolean>false</Boolean>
 					<Product secType="CFD"/>
@@ -3996,8 +4294,46 @@
 					<Boolean>false</Boolean>
 					<Product secType="WAR"/>
 					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
+					<Boolean>false</Boolean>
 				</ProductPreferenceMap>
 				<HomeExchangeGroup varName="homeExchangeGroup" shortName="BATEUK" longName="BATS Trading Limited UK" isGroup="false">
+					<exchangeType>STOCK</exchangeType>
+				</HomeExchangeGroup>
+			</ProductPreferences>
+			<HomeExchangeGroup shortName="CFECRYPTO" longName="CBOE Futures Exchange - Cryptocurrency" isGroup="false">
+				<exchangeType>INDEX</exchangeType>
+			</HomeExchangeGroup>
+			<ProductPreferences>
+				<ProductPreferenceMap varName="preferred">
+					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
+					<Boolean>false</Boolean>
+					<Product secType="IND"/>
+					<Boolean>false</Boolean>
+				</ProductPreferenceMap>
+				<HomeExchangeGroup varName="homeExchangeGroup" shortName="CFECRYPTO" longName="CBOE Futures Exchange - Cryptocurrency" isGroup="false">
+					<exchangeType>INDEX</exchangeType>
+				</HomeExchangeGroup>
+			</ProductPreferences>
+			<HomeExchangeGroup shortName="TRQXES" longName="Turquoise Europe Spain" isGroup="false">
+				<exchangeType>STOCK</exchangeType>
+			</HomeExchangeGroup>
+			<ProductPreferences>
+				<ProductPreferenceMap varName="preferred">
+					<Product secType="STK"/>
+					<Boolean>false</Boolean>
+					<Product secType="CFD"/>
+					<Boolean>false</Boolean>
+					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="WAR"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
+					<Boolean>false</Boolean>
+				</ProductPreferenceMap>
+				<HomeExchangeGroup varName="homeExchangeGroup" shortName="TRQXES" longName="Turquoise Europe Spain" isGroup="false">
 					<exchangeType>STOCK</exchangeType>
 				</HomeExchangeGroup>
 			</ProductPreferences>
@@ -4006,9 +4342,9 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 					<Product secType="IND"/>
 					<Boolean>false</Boolean>
@@ -4017,33 +4353,11 @@
 					<exchangeType>INDEX</exchangeType>
 				</HomeExchangeGroup>
 			</ProductPreferences>
-			<HomeExchangeGroup shortName="SBVM" longName="Societe de la Bourse de Valeurs Mobilieres de Bruxelles" isGroup="false">
-				<exchangeType>STOCK</exchangeType>
-			</HomeExchangeGroup>
-			<ProductPreferences>
-				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
-					<Product secType="STK"/>
-					<Boolean>false</Boolean>
-					<Product secType="CFD"/>
-					<Boolean>false</Boolean>
-					<Product secType="OPT"/>
-					<Boolean>false</Boolean>
-					<Product secType="WAR"/>
-					<Boolean>false</Boolean>
-				</ProductPreferenceMap>
-				<HomeExchangeGroup varName="homeExchangeGroup" shortName="SBVM" longName="Societe de la Bourse de Valeurs Mobilieres de Bruxelles" isGroup="false">
-					<exchangeType>STOCK</exchangeType>
-				</HomeExchangeGroup>
-			</ProductPreferences>
 			<HomeExchangeGroup shortName="DESTK" longName="Germany Stocks" isGroup="true">
 				<exchangeType>STOCK</exchangeType>
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="STK"/>
 					<Boolean>false</Boolean>
 					<Product secType="CFD"/>
@@ -4051,6 +4365,8 @@
 					<Product secType="OPT"/>
 					<Boolean>false</Boolean>
 					<Product secType="WAR"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 				</ProductPreferenceMap>
 				<HomeExchangeGroup varName="homeExchangeGroup" shortName="DESTK" longName="Germany Stocks" isGroup="true">
@@ -4062,9 +4378,9 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 					<Product secType="IND"/>
 					<Boolean>false</Boolean>
@@ -4078,8 +4394,6 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="STK"/>
 					<Boolean>false</Boolean>
 					<Product secType="CFD"/>
@@ -4087,6 +4401,8 @@
 					<Product secType="OPT"/>
 					<Boolean>false</Boolean>
 					<Product secType="WAR"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 				</ProductPreferenceMap>
 				<HomeExchangeGroup varName="homeExchangeGroup" shortName="CHIXEN" longName="CHI-X Europe Ltd Clearnet" isGroup="false">
@@ -4098,9 +4414,9 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 					<Product secType="IND"/>
 					<Boolean>false</Boolean>
@@ -4114,9 +4430,9 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 					<Product secType="IND"/>
 					<Boolean>false</Boolean>
@@ -4125,13 +4441,11 @@
 					<exchangeType>INDEX</exchangeType>
 				</HomeExchangeGroup>
 			</ProductPreferences>
-			<HomeExchangeGroup shortName="SGX" longName="Singapore Exchange" isGroup="false">
+			<HomeExchangeGroup shortName="BATEES" longName="BATS Trading Limited Spain" isGroup="false">
 				<exchangeType>STOCK</exchangeType>
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="STK"/>
 					<Boolean>false</Boolean>
 					<Product secType="CFD"/>
@@ -4140,8 +4454,50 @@
 					<Boolean>false</Boolean>
 					<Product secType="WAR"/>
 					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
+					<Boolean>false</Boolean>
+				</ProductPreferenceMap>
+				<HomeExchangeGroup varName="homeExchangeGroup" shortName="BATEES" longName="BATS Trading Limited Spain" isGroup="false">
+					<exchangeType>STOCK</exchangeType>
+				</HomeExchangeGroup>
+			</ProductPreferences>
+			<HomeExchangeGroup shortName="SGX" longName="Singapore Exchange" isGroup="false">
+				<exchangeType>STOCK</exchangeType>
+			</HomeExchangeGroup>
+			<ProductPreferences>
+				<ProductPreferenceMap varName="preferred">
+					<Product secType="STK"/>
+					<Boolean>false</Boolean>
+					<Product secType="CFD"/>
+					<Boolean>false</Boolean>
+					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="WAR"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
+					<Boolean>false</Boolean>
 				</ProductPreferenceMap>
 				<HomeExchangeGroup varName="homeExchangeGroup" shortName="SGX" longName="Singapore Exchange" isGroup="false">
+					<exchangeType>STOCK</exchangeType>
+				</HomeExchangeGroup>
+			</ProductPreferences>
+			<HomeExchangeGroup shortName="SEHKNTL" longName="Stock Exchange Hong Kong Northbound Trading Link" isGroup="false">
+				<exchangeType>STOCK</exchangeType>
+			</HomeExchangeGroup>
+			<ProductPreferences>
+				<ProductPreferenceMap varName="preferred">
+					<Product secType="STK"/>
+					<Boolean>false</Boolean>
+					<Product secType="CFD"/>
+					<Boolean>false</Boolean>
+					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="WAR"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
+					<Boolean>false</Boolean>
+				</ProductPreferenceMap>
+				<HomeExchangeGroup varName="homeExchangeGroup" shortName="SEHKNTL" longName="Stock Exchange Hong Kong Northbound Trading Link" isGroup="false">
 					<exchangeType>STOCK</exchangeType>
 				</HomeExchangeGroup>
 			</ProductPreferences>
@@ -4150,8 +4506,6 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="STK"/>
 					<Boolean>false</Boolean>
 					<Product secType="CFD"/>
@@ -4160,25 +4514,31 @@
 					<Boolean>false</Boolean>
 					<Product secType="WAR"/>
 					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
+					<Boolean>false</Boolean>
 				</ProductPreferenceMap>
 				<HomeExchangeGroup varName="homeExchangeGroup" shortName="VSE" longName="Vienna Stock Exchange" isGroup="false">
 					<exchangeType>STOCK</exchangeType>
 				</HomeExchangeGroup>
 			</ProductPreferences>
-			<HomeExchangeGroup shortName="LIFFE" longName="London Int. Fin. Futures &amp; Opts Exchange" isGroup="false">
-				<exchangeType>INDEX</exchangeType>
+			<HomeExchangeGroup shortName="OMXNO" longName="Norwegian shares on OMX" isGroup="false">
+				<exchangeType>STOCK</exchangeType>
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
+					<Product secType="STK"/>
+					<Boolean>false</Boolean>
+					<Product secType="CFD"/>
 					<Boolean>false</Boolean>
 					<Product secType="OPT"/>
 					<Boolean>false</Boolean>
-					<Product secType="IND"/>
+					<Product secType="WAR"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 				</ProductPreferenceMap>
-				<HomeExchangeGroup varName="homeExchangeGroup" shortName="LIFFE" longName="London Int. Fin. Futures &amp; Opts Exchange" isGroup="false">
-					<exchangeType>INDEX</exchangeType>
+				<HomeExchangeGroup varName="homeExchangeGroup" shortName="OMXNO" longName="Norwegian shares on OMX" isGroup="false">
+					<exchangeType>STOCK</exchangeType>
 				</HomeExchangeGroup>
 			</ProductPreferences>
 			<HomeExchangeGroup shortName="MEFFRV" longName="Mercado Espanol de Futuros Financieros Renta Variable PROXY" isGroup="false">
@@ -4186,9 +4546,9 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 					<Product secType="IND"/>
 					<Boolean>false</Boolean>
@@ -4202,8 +4562,6 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="STK"/>
 					<Boolean>false</Boolean>
 					<Product secType="CFD"/>
@@ -4212,23 +4570,11 @@
 					<Boolean>false</Boolean>
 					<Product secType="WAR"/>
 					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
+					<Boolean>false</Boolean>
 				</ProductPreferenceMap>
 				<HomeExchangeGroup varName="homeExchangeGroup" shortName="BM" longName="Bolsa de Madrid" isGroup="false">
 					<exchangeType>STOCK</exchangeType>
-				</HomeExchangeGroup>
-			</ProductPreferences>
-			<HomeExchangeGroup shortName="ELX" longName="ELX Futures" isGroup="false">
-				<exchangeType>FUTURE</exchangeType>
-			</HomeExchangeGroup>
-			<ProductPreferences>
-				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
-					<Product secType="OPT"/>
-					<Boolean>false</Boolean>
-				</ProductPreferenceMap>
-				<HomeExchangeGroup varName="homeExchangeGroup" shortName="ELX" longName="ELX Futures" isGroup="false">
-					<exchangeType>FUTURE</exchangeType>
 				</HomeExchangeGroup>
 			</ProductPreferences>
 			<HomeExchangeGroup shortName="KSE" longName="Korea Stock Exchange" isGroup="false">
@@ -4236,9 +4582,9 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 					<Product secType="IND"/>
 					<Boolean>false</Boolean>
@@ -4252,8 +4598,6 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="STK"/>
 					<Boolean>false</Boolean>
 					<Product secType="CFD"/>
@@ -4261,6 +4605,8 @@
 					<Product secType="OPT"/>
 					<Boolean>false</Boolean>
 					<Product secType="WAR"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 				</ProductPreferenceMap>
 				<HomeExchangeGroup varName="homeExchangeGroup" shortName="TRQXCH" longName="Turquoise Europe Switzerland" isGroup="false">
@@ -4272,9 +4618,9 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 					<Product secType="IND"/>
 					<Boolean>false</Boolean>
@@ -4288,8 +4634,6 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="STK"/>
 					<Boolean>false</Boolean>
 					<Product secType="CFD"/>
@@ -4297,6 +4641,8 @@
 					<Product secType="OPT"/>
 					<Boolean>false</Boolean>
 					<Product secType="WAR"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 				</ProductPreferenceMap>
 				<HomeExchangeGroup varName="homeExchangeGroup" shortName="BATEEN" longName="BATS Trading Limited Euronext" isGroup="false">
@@ -4308,8 +4654,6 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="STK"/>
 					<Boolean>false</Boolean>
 					<Product secType="CFD"/>
@@ -4317,6 +4661,8 @@
 					<Product secType="OPT"/>
 					<Boolean>false</Boolean>
 					<Product secType="WAR"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 				</ProductPreferenceMap>
 				<HomeExchangeGroup varName="homeExchangeGroup" shortName="CASTK" longName="Canada Stocks" isGroup="true">
@@ -4328,9 +4674,9 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 					<Product secType="IND"/>
 					<Boolean>false</Boolean>
@@ -4344,9 +4690,9 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 					<Product secType="IND"/>
 					<Boolean>false</Boolean>
@@ -4360,9 +4706,9 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 					<Product secType="IND"/>
 					<Boolean>false</Boolean>
@@ -4376,8 +4722,6 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="STK"/>
 					<Boolean>false</Boolean>
 					<Product secType="CFD"/>
@@ -4386,9 +4730,41 @@
 					<Boolean>false</Boolean>
 					<Product secType="WAR"/>
 					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
+					<Boolean>false</Boolean>
 				</ProductPreferenceMap>
 				<HomeExchangeGroup varName="homeExchangeGroup" shortName="CHIXDE" longName="CHI-X Europe Ltd Clearstream" isGroup="false">
 					<exchangeType>STOCK</exchangeType>
+				</HomeExchangeGroup>
+			</ProductPreferences>
+			<HomeExchangeGroup shortName="NFX" longName="Nasdaq US Futures Exchange" isGroup="false">
+				<exchangeType>FUTURE</exchangeType>
+			</HomeExchangeGroup>
+			<ProductPreferences>
+				<ProductPreferenceMap varName="preferred">
+					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
+					<Boolean>false</Boolean>
+				</ProductPreferenceMap>
+				<HomeExchangeGroup varName="homeExchangeGroup" shortName="NFX" longName="Nasdaq US Futures Exchange" isGroup="false">
+					<exchangeType>FUTURE</exchangeType>
+				</HomeExchangeGroup>
+			</ProductPreferences>
+			<HomeExchangeGroup shortName="ICEEUSOFT" longName="ICE Europe Soft Commodities" isGroup="false">
+				<exchangeType>INDEX</exchangeType>
+			</HomeExchangeGroup>
+			<ProductPreferences>
+				<ProductPreferenceMap varName="preferred">
+					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
+					<Boolean>false</Boolean>
+					<Product secType="IND"/>
+					<Boolean>false</Boolean>
+				</ProductPreferenceMap>
+				<HomeExchangeGroup varName="homeExchangeGroup" shortName="ICEEUSOFT" longName="ICE Europe Soft Commodities" isGroup="false">
+					<exchangeType>INDEX</exchangeType>
 				</HomeExchangeGroup>
 			</ProductPreferences>
 			<HomeExchangeGroup shortName="OMS" longName="Stockholm Options Market" isGroup="false">
@@ -4396,9 +4772,9 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 					<Product secType="IND"/>
 					<Boolean>false</Boolean>
@@ -4412,9 +4788,9 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 					<Product secType="IND"/>
 					<Boolean>false</Boolean>
@@ -4428,9 +4804,9 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 					<Product secType="IND"/>
 					<Boolean>false</Boolean>
@@ -4444,9 +4820,9 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 					<Product secType="IND"/>
 					<Boolean>false</Boolean>
@@ -4455,29 +4831,11 @@
 					<exchangeType>INDEX</exchangeType>
 				</HomeExchangeGroup>
 			</ProductPreferences>
-			<HomeExchangeGroup shortName="CBOT" longName="Chicago Board of Trade" isGroup="false">
-				<exchangeType>INDEX</exchangeType>
-			</HomeExchangeGroup>
-			<ProductPreferences>
-				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
-					<Product secType="OPT"/>
-					<Boolean>false</Boolean>
-					<Product secType="IND"/>
-					<Boolean>false</Boolean>
-				</ProductPreferenceMap>
-				<HomeExchangeGroup varName="homeExchangeGroup" shortName="CBOT" longName="Chicago Board of Trade" isGroup="false">
-					<exchangeType>INDEX</exchangeType>
-				</HomeExchangeGroup>
-			</ProductPreferences>
 			<HomeExchangeGroup shortName="SFB" longName="Stockholm FondBors" isGroup="false">
 				<exchangeType>STOCK</exchangeType>
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="STK"/>
 					<Boolean>false</Boolean>
 					<Product secType="CFD"/>
@@ -4485,6 +4843,8 @@
 					<Product secType="OPT"/>
 					<Boolean>false</Boolean>
 					<Product secType="WAR"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 				</ProductPreferenceMap>
 				<HomeExchangeGroup varName="homeExchangeGroup" shortName="SFB" longName="Stockholm FondBors" isGroup="false">
@@ -4496,9 +4856,9 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 					<Product secType="IND"/>
 					<Boolean>false</Boolean>
@@ -4512,9 +4872,9 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 					<Product secType="IND"/>
 					<Boolean>false</Boolean>
@@ -4523,30 +4883,14 @@
 					<exchangeType>INDEX</exchangeType>
 				</HomeExchangeGroup>
 			</ProductPreferences>
-			<HomeExchangeGroup shortName="OMC" longName="OMX Copenhagen Derivatives Exchange" isGroup="false">
-				<exchangeType>INDEX</exchangeType>
-			</HomeExchangeGroup>
-			<ProductPreferences>
-				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
-					<Product secType="OPT"/>
-					<Boolean>false</Boolean>
-					<Product secType="IND"/>
-					<Boolean>false</Boolean>
-				</ProductPreferenceMap>
-				<HomeExchangeGroup varName="homeExchangeGroup" shortName="OMC" longName="OMX Copenhagen Derivatives Exchange" isGroup="false">
-					<exchangeType>INDEX</exchangeType>
-				</HomeExchangeGroup>
-			</ProductPreferences>
 			<HomeExchangeGroup shortName="BM" longName="Bolsa de Madrid" isGroup="false">
 				<exchangeType>INDEX</exchangeType>
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 					<Product secType="IND"/>
 					<Boolean>false</Boolean>
@@ -4560,9 +4904,9 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 					<Product secType="IND"/>
 					<Boolean>false</Boolean>
@@ -4576,9 +4920,9 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 					<Product secType="IND"/>
 					<Boolean>false</Boolean>
@@ -4587,33 +4931,11 @@
 					<exchangeType>INDEX</exchangeType>
 				</HomeExchangeGroup>
 			</ProductPreferences>
-			<HomeExchangeGroup shortName="TRACKECN" longName="TRACK ECN" isGroup="false">
-				<exchangeType>STOCK</exchangeType>
-			</HomeExchangeGroup>
-			<ProductPreferences>
-				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
-					<Product secType="STK"/>
-					<Boolean>false</Boolean>
-					<Product secType="CFD"/>
-					<Boolean>false</Boolean>
-					<Product secType="OPT"/>
-					<Boolean>false</Boolean>
-					<Product secType="WAR"/>
-					<Boolean>false</Boolean>
-				</ProductPreferenceMap>
-				<HomeExchangeGroup varName="homeExchangeGroup" shortName="TRACKECN" longName="TRACK ECN" isGroup="false">
-					<exchangeType>STOCK</exchangeType>
-				</HomeExchangeGroup>
-			</ProductPreferences>
 			<HomeExchangeGroup shortName="FWB2" longName="FWB for CBL settlement" isGroup="false">
 				<exchangeType>STOCK</exchangeType>
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="STK"/>
 					<Boolean>false</Boolean>
 					<Product secType="CFD"/>
@@ -4621,6 +4943,8 @@
 					<Product secType="OPT"/>
 					<Boolean>false</Boolean>
 					<Product secType="WAR"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 				</ProductPreferenceMap>
 				<HomeExchangeGroup varName="homeExchangeGroup" shortName="FWB2" longName="FWB for CBL settlement" isGroup="false">
@@ -4632,9 +4956,9 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 					<Product secType="IND"/>
 					<Boolean>false</Boolean>
@@ -4648,9 +4972,9 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 					<Product secType="IND"/>
 					<Boolean>false</Boolean>
@@ -4659,24 +4983,36 @@
 					<exchangeType>INDEX</exchangeType>
 				</HomeExchangeGroup>
 			</ProductPreferences>
-			<HomeExchangeGroup shortName="BTRADE" longName="Bloomberg Exchange" isGroup="false">
-				<exchangeType>STOCK</exchangeType>
+			<HomeExchangeGroup shortName="BVL" longName="Lisbon Stock Exchange " isGroup="false">
+				<exchangeType>INDEX</exchangeType>
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
-					<Product secType="STK"/>
-					<Boolean>false</Boolean>
-					<Product secType="CFD"/>
-					<Boolean>false</Boolean>
 					<Product secType="OPT"/>
 					<Boolean>false</Boolean>
-					<Product secType="WAR"/>
+					<Product secType="FUT"/>
+					<Boolean>false</Boolean>
+					<Product secType="IND"/>
 					<Boolean>false</Boolean>
 				</ProductPreferenceMap>
-				<HomeExchangeGroup varName="homeExchangeGroup" shortName="BTRADE" longName="Bloomberg Exchange" isGroup="false">
-					<exchangeType>STOCK</exchangeType>
+				<HomeExchangeGroup varName="homeExchangeGroup" shortName="BVL" longName="Lisbon Stock Exchange " isGroup="false">
+					<exchangeType>INDEX</exchangeType>
+				</HomeExchangeGroup>
+			</ProductPreferences>
+			<HomeExchangeGroup shortName="CMECRYPTO" longName="CME - Cryptocurrency" isGroup="false">
+				<exchangeType>INDEX</exchangeType>
+			</HomeExchangeGroup>
+			<ProductPreferences>
+				<ProductPreferenceMap varName="preferred">
+					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
+					<Boolean>false</Boolean>
+					<Product secType="IND"/>
+					<Boolean>false</Boolean>
+				</ProductPreferenceMap>
+				<HomeExchangeGroup varName="homeExchangeGroup" shortName="CMECRYPTO" longName="CME - Cryptocurrency" isGroup="false">
+					<exchangeType>INDEX</exchangeType>
 				</HomeExchangeGroup>
 			</ProductPreferences>
 			<HomeExchangeGroup shortName="LSEIOB1" longName="LSE-IOB 1" isGroup="false">
@@ -4684,8 +5020,6 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="STK"/>
 					<Boolean>false</Boolean>
 					<Product secType="CFD"/>
@@ -4693,29 +5027,11 @@
 					<Product secType="OPT"/>
 					<Boolean>false</Boolean>
 					<Product secType="WAR"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 				</ProductPreferenceMap>
 				<HomeExchangeGroup varName="homeExchangeGroup" shortName="LSEIOB1" longName="LSE-IOB 1" isGroup="false">
-					<exchangeType>STOCK</exchangeType>
-				</HomeExchangeGroup>
-			</ProductPreferences>
-			<HomeExchangeGroup shortName="CBSX" longName="CBOE Stock Exchange" isGroup="false">
-				<exchangeType>STOCK</exchangeType>
-			</HomeExchangeGroup>
-			<ProductPreferences>
-				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
-					<Product secType="STK"/>
-					<Boolean>false</Boolean>
-					<Product secType="CFD"/>
-					<Boolean>false</Boolean>
-					<Product secType="OPT"/>
-					<Boolean>false</Boolean>
-					<Product secType="WAR"/>
-					<Boolean>false</Boolean>
-				</ProductPreferenceMap>
-				<HomeExchangeGroup varName="homeExchangeGroup" shortName="CBSX" longName="CBOE Stock Exchange" isGroup="false">
 					<exchangeType>STOCK</exchangeType>
 				</HomeExchangeGroup>
 			</ProductPreferences>
@@ -4724,8 +5040,6 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="STK"/>
 					<Boolean>false</Boolean>
 					<Product secType="CFD"/>
@@ -4733,6 +5047,8 @@
 					<Product secType="OPT"/>
 					<Boolean>false</Boolean>
 					<Product secType="WAR"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 				</ProductPreferenceMap>
 				<HomeExchangeGroup varName="homeExchangeGroup" shortName="BATECH" longName="BATS Trading Limited Switzerland" isGroup="false">
@@ -4744,8 +5060,6 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="STK"/>
 					<Boolean>false</Boolean>
 					<Product secType="CFD"/>
@@ -4753,6 +5067,8 @@
 					<Product secType="OPT"/>
 					<Boolean>false</Boolean>
 					<Product secType="WAR"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 				</ProductPreferenceMap>
 				<HomeExchangeGroup varName="homeExchangeGroup" shortName="JPSTK" longName="Japan Stocks" isGroup="true">
@@ -4764,9 +5080,9 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 					<Product secType="IND"/>
 					<Boolean>false</Boolean>
@@ -4775,13 +5091,11 @@
 					<exchangeType>INDEX</exchangeType>
 				</HomeExchangeGroup>
 			</ProductPreferences>
-			<HomeExchangeGroup shortName="TRQXDE" longName="Turquoise Europe Germany" isGroup="false">
+			<HomeExchangeGroup shortName="JSE" longName="Johannesburg Stock Exchange" isGroup="false">
 				<exchangeType>STOCK</exchangeType>
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="STK"/>
 					<Boolean>false</Boolean>
 					<Product secType="CFD"/>
@@ -4790,8 +5104,70 @@
 					<Boolean>false</Boolean>
 					<Product secType="WAR"/>
 					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
+					<Boolean>false</Boolean>
+				</ProductPreferenceMap>
+				<HomeExchangeGroup varName="homeExchangeGroup" shortName="JSE" longName="Johannesburg Stock Exchange" isGroup="false">
+					<exchangeType>STOCK</exchangeType>
+				</HomeExchangeGroup>
+			</ProductPreferences>
+			<HomeExchangeGroup shortName="TRQXDE" longName="Turquoise Europe Germany" isGroup="false">
+				<exchangeType>STOCK</exchangeType>
+			</HomeExchangeGroup>
+			<ProductPreferences>
+				<ProductPreferenceMap varName="preferred">
+					<Product secType="STK"/>
+					<Boolean>false</Boolean>
+					<Product secType="CFD"/>
+					<Boolean>false</Boolean>
+					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="WAR"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
+					<Boolean>false</Boolean>
 				</ProductPreferenceMap>
 				<HomeExchangeGroup varName="homeExchangeGroup" shortName="TRQXDE" longName="Turquoise Europe Germany" isGroup="false">
+					<exchangeType>STOCK</exchangeType>
+				</HomeExchangeGroup>
+			</ProductPreferences>
+			<HomeExchangeGroup shortName="HEX" longName="Helsinki Stock Exchange" isGroup="false">
+				<exchangeType>STOCK</exchangeType>
+			</HomeExchangeGroup>
+			<ProductPreferences>
+				<ProductPreferenceMap varName="preferred">
+					<Product secType="STK"/>
+					<Boolean>false</Boolean>
+					<Product secType="CFD"/>
+					<Boolean>false</Boolean>
+					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="WAR"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
+					<Boolean>false</Boolean>
+				</ProductPreferenceMap>
+				<HomeExchangeGroup varName="homeExchangeGroup" shortName="HEX" longName="Helsinki Stock Exchange" isGroup="false">
+					<exchangeType>STOCK</exchangeType>
+				</HomeExchangeGroup>
+			</ProductPreferences>
+			<HomeExchangeGroup shortName="PRA" longName="Praque Stock Exchange" isGroup="false">
+				<exchangeType>STOCK</exchangeType>
+			</HomeExchangeGroup>
+			<ProductPreferences>
+				<ProductPreferenceMap varName="preferred">
+					<Product secType="STK"/>
+					<Boolean>false</Boolean>
+					<Product secType="CFD"/>
+					<Boolean>false</Boolean>
+					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="WAR"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
+					<Boolean>false</Boolean>
+				</ProductPreferenceMap>
+				<HomeExchangeGroup varName="homeExchangeGroup" shortName="PRA" longName="Praque Stock Exchange" isGroup="false">
 					<exchangeType>STOCK</exchangeType>
 				</HomeExchangeGroup>
 			</ProductPreferences>
@@ -4800,8 +5176,6 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="STK"/>
 					<Boolean>false</Boolean>
 					<Product secType="CFD"/>
@@ -4810,25 +5184,11 @@
 					<Boolean>false</Boolean>
 					<Product secType="WAR"/>
 					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
+					<Boolean>false</Boolean>
 				</ProductPreferenceMap>
 				<HomeExchangeGroup varName="homeExchangeGroup" shortName="ASX" longName="Australian Stock Exchange" isGroup="false">
 					<exchangeType>STOCK</exchangeType>
-				</HomeExchangeGroup>
-			</ProductPreferences>
-			<HomeExchangeGroup shortName="OMH" longName="OMX Helsinki Derivatives Exchange" isGroup="false">
-				<exchangeType>INDEX</exchangeType>
-			</HomeExchangeGroup>
-			<ProductPreferences>
-				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
-					<Product secType="OPT"/>
-					<Boolean>false</Boolean>
-					<Product secType="IND"/>
-					<Boolean>false</Boolean>
-				</ProductPreferenceMap>
-				<HomeExchangeGroup varName="homeExchangeGroup" shortName="OMH" longName="OMX Helsinki Derivatives Exchange" isGroup="false">
-					<exchangeType>INDEX</exchangeType>
 				</HomeExchangeGroup>
 			</ProductPreferences>
 			<HomeExchangeGroup shortName="BVME" longName="Borsa Valori di Milano" isGroup="false">
@@ -4836,8 +5196,6 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="STK"/>
 					<Boolean>false</Boolean>
 					<Product secType="CFD"/>
@@ -4845,6 +5203,8 @@
 					<Product secType="OPT"/>
 					<Boolean>false</Boolean>
 					<Product secType="WAR"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 				</ProductPreferenceMap>
 				<HomeExchangeGroup varName="homeExchangeGroup" shortName="BVME" longName="Borsa Valori di Milano" isGroup="false">
@@ -4856,8 +5216,6 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="STK"/>
 					<Boolean>false</Boolean>
 					<Product secType="CFD"/>
@@ -4865,29 +5223,11 @@
 					<Product secType="OPT"/>
 					<Boolean>false</Boolean>
 					<Product secType="WAR"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 				</ProductPreferenceMap>
 				<HomeExchangeGroup varName="homeExchangeGroup" shortName="SWB2" longName="SWB for CBL settlement" isGroup="false">
-					<exchangeType>STOCK</exchangeType>
-				</HomeExchangeGroup>
-			</ProductPreferences>
-			<HomeExchangeGroup shortName="LAVA" longName="LAVA ECN" isGroup="false">
-				<exchangeType>STOCK</exchangeType>
-			</HomeExchangeGroup>
-			<ProductPreferences>
-				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
-					<Product secType="STK"/>
-					<Boolean>false</Boolean>
-					<Product secType="CFD"/>
-					<Boolean>false</Boolean>
-					<Product secType="OPT"/>
-					<Boolean>false</Boolean>
-					<Product secType="WAR"/>
-					<Boolean>false</Boolean>
-				</ProductPreferenceMap>
-				<HomeExchangeGroup varName="homeExchangeGroup" shortName="LAVA" longName="LAVA ECN" isGroup="false">
 					<exchangeType>STOCK</exchangeType>
 				</HomeExchangeGroup>
 			</ProductPreferences>
@@ -4896,9 +5236,9 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 					<Product secType="IND"/>
 					<Boolean>false</Boolean>
@@ -4912,8 +5252,6 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="STK"/>
 					<Boolean>false</Boolean>
 					<Product secType="CFD"/>
@@ -4921,6 +5259,8 @@
 					<Product secType="OPT"/>
 					<Boolean>false</Boolean>
 					<Product secType="WAR"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 				</ProductPreferenceMap>
 				<HomeExchangeGroup varName="homeExchangeGroup" shortName="BATEDE" longName="BATS Trading Limited Germany" isGroup="false">
@@ -4932,9 +5272,9 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 					<Product secType="IND"/>
 					<Boolean>false</Boolean>
@@ -4948,9 +5288,9 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 					<Product secType="IND"/>
 					<Boolean>false</Boolean>
@@ -4964,9 +5304,9 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 					<Product secType="IND"/>
 					<Boolean>false</Boolean>
@@ -4975,14 +5315,34 @@
 					<exchangeType>INDEX</exchangeType>
 				</HomeExchangeGroup>
 			</ProductPreferences>
+			<HomeExchangeGroup shortName="BVL" longName="Lisbon Stock Exchange " isGroup="false">
+				<exchangeType>STOCK</exchangeType>
+			</HomeExchangeGroup>
+			<ProductPreferences>
+				<ProductPreferenceMap varName="preferred">
+					<Product secType="STK"/>
+					<Boolean>false</Boolean>
+					<Product secType="CFD"/>
+					<Boolean>false</Boolean>
+					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="WAR"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
+					<Boolean>false</Boolean>
+				</ProductPreferenceMap>
+				<HomeExchangeGroup varName="homeExchangeGroup" shortName="BVL" longName="Lisbon Stock Exchange " isGroup="false">
+					<exchangeType>STOCK</exchangeType>
+				</HomeExchangeGroup>
+			</ProductPreferences>
 			<HomeExchangeGroup shortName="TSE.JPN" longName="Tokyo Stock Exchange" isGroup="false">
 				<exchangeType>INDEX</exchangeType>
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 					<Product secType="IND"/>
 					<Boolean>false</Boolean>
@@ -4996,8 +5356,6 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="STK"/>
 					<Boolean>false</Boolean>
 					<Product secType="CFD"/>
@@ -5005,6 +5363,8 @@
 					<Product secType="OPT"/>
 					<Boolean>false</Boolean>
 					<Product secType="WAR"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 				</ProductPreferenceMap>
 				<HomeExchangeGroup varName="homeExchangeGroup" shortName="SEHK" longName="Stock Exchange of Hong Kong" isGroup="false">
@@ -5016,9 +5376,9 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 					<Product secType="IND"/>
 					<Boolean>false</Boolean>
@@ -5027,14 +5387,28 @@
 					<exchangeType>INDEX</exchangeType>
 				</HomeExchangeGroup>
 			</ProductPreferences>
+			<HomeExchangeGroup shortName="CFETAS" longName="Chicago Futures Exchange Trading At Settlement" isGroup="false">
+				<exchangeType>FUTURE</exchangeType>
+			</HomeExchangeGroup>
+			<ProductPreferences>
+				<ProductPreferenceMap varName="preferred">
+					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
+					<Boolean>false</Boolean>
+				</ProductPreferenceMap>
+				<HomeExchangeGroup varName="homeExchangeGroup" shortName="CFETAS" longName="Chicago Futures Exchange Trading At Settlement" isGroup="false">
+					<exchangeType>FUTURE</exchangeType>
+				</HomeExchangeGroup>
+			</ProductPreferences>
 			<HomeExchangeGroup shortName="ICEUS" longName="Ice Futures US Inc" isGroup="false">
 				<exchangeType>FUTURE</exchangeType>
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 				</ProductPreferenceMap>
 				<HomeExchangeGroup varName="homeExchangeGroup" shortName="ICEUS" longName="Ice Futures US Inc" isGroup="false">
@@ -5046,9 +5420,9 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 					<Product secType="IND"/>
 					<Boolean>false</Boolean>
@@ -5057,14 +5431,34 @@
 					<exchangeType>INDEX</exchangeType>
 				</HomeExchangeGroup>
 			</ProductPreferences>
+			<HomeExchangeGroup shortName="CHIXES" longName="CHI-X Europe Ltd Spain" isGroup="false">
+				<exchangeType>STOCK</exchangeType>
+			</HomeExchangeGroup>
+			<ProductPreferences>
+				<ProductPreferenceMap varName="preferred">
+					<Product secType="STK"/>
+					<Boolean>false</Boolean>
+					<Product secType="CFD"/>
+					<Boolean>false</Boolean>
+					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="WAR"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
+					<Boolean>false</Boolean>
+				</ProductPreferenceMap>
+				<HomeExchangeGroup varName="homeExchangeGroup" shortName="CHIXES" longName="CHI-X Europe Ltd Spain" isGroup="false">
+					<exchangeType>STOCK</exchangeType>
+				</HomeExchangeGroup>
+			</ProductPreferences>
 			<HomeExchangeGroup shortName="CBOE2" longName="Chicago Board Options Exchange 2" isGroup="false">
 				<exchangeType>INDEX</exchangeType>
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 					<Product secType="IND"/>
 					<Boolean>false</Boolean>
@@ -5073,14 +5467,30 @@
 					<exchangeType>INDEX</exchangeType>
 				</HomeExchangeGroup>
 			</ProductPreferences>
+			<HomeExchangeGroup shortName="ICEEU" longName="ICE Futures Europe" isGroup="false">
+				<exchangeType>INDEX</exchangeType>
+			</HomeExchangeGroup>
+			<ProductPreferences>
+				<ProductPreferenceMap varName="preferred">
+					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
+					<Boolean>false</Boolean>
+					<Product secType="IND"/>
+					<Boolean>false</Boolean>
+				</ProductPreferenceMap>
+				<HomeExchangeGroup varName="homeExchangeGroup" shortName="ICEEU" longName="ICE Futures Europe" isGroup="false">
+					<exchangeType>INDEX</exchangeType>
+				</HomeExchangeGroup>
+			</ProductPreferences>
 			<HomeExchangeGroup shortName="HKFE" longName="Hong Kong Futures Exchange " isGroup="false">
 				<exchangeType>INDEX</exchangeType>
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 					<Product secType="IND"/>
 					<Boolean>false</Boolean>
@@ -5089,30 +5499,14 @@
 					<exchangeType>INDEX</exchangeType>
 				</HomeExchangeGroup>
 			</ProductPreferences>
-			<HomeExchangeGroup shortName="LIFFE_NF" longName="London Int. Fin. Futures &amp; Opts Exchange Non Financial" isGroup="false">
-				<exchangeType>INDEX</exchangeType>
-			</HomeExchangeGroup>
-			<ProductPreferences>
-				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
-					<Product secType="OPT"/>
-					<Boolean>false</Boolean>
-					<Product secType="IND"/>
-					<Boolean>false</Boolean>
-				</ProductPreferenceMap>
-				<HomeExchangeGroup varName="homeExchangeGroup" shortName="LIFFE_NF" longName="London Int. Fin. Futures &amp; Opts Exchange Non Financial" isGroup="false">
-					<exchangeType>INDEX</exchangeType>
-				</HomeExchangeGroup>
-			</ProductPreferences>
 			<HomeExchangeGroup shortName="BVME" longName="Borsa Valori di Milano" isGroup="false">
 				<exchangeType>INDEX</exchangeType>
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 					<Product secType="IND"/>
 					<Boolean>false</Boolean>
@@ -5121,13 +5515,25 @@
 					<exchangeType>INDEX</exchangeType>
 				</HomeExchangeGroup>
 			</ProductPreferences>
+			<HomeExchangeGroup shortName="ERIS" longName="Eris Exchange" isGroup="false">
+				<exchangeType>FUTURE</exchangeType>
+			</HomeExchangeGroup>
+			<ProductPreferences>
+				<ProductPreferenceMap varName="preferred">
+					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
+					<Boolean>false</Boolean>
+				</ProductPreferenceMap>
+				<HomeExchangeGroup varName="homeExchangeGroup" shortName="ERIS" longName="Eris Exchange" isGroup="false">
+					<exchangeType>FUTURE</exchangeType>
+				</HomeExchangeGroup>
+			</ProductPreferences>
 			<HomeExchangeGroup shortName="USSTK" longName="United States Stocks" isGroup="true">
 				<exchangeType>STOCK</exchangeType>
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="STK"/>
 					<Boolean>false</Boolean>
 					<Product secType="CFD"/>
@@ -5135,6 +5541,8 @@
 					<Product secType="OPT"/>
 					<Boolean>false</Boolean>
 					<Product secType="WAR"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 				</ProductPreferenceMap>
 				<HomeExchangeGroup varName="homeExchangeGroup" shortName="USSTK" longName="United States Stocks" isGroup="true">
@@ -5146,9 +5554,9 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 					<Product secType="IND"/>
 					<Boolean>false</Boolean>
@@ -5162,8 +5570,6 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="STK"/>
 					<Boolean>false</Boolean>
 					<Product secType="CFD"/>
@@ -5171,6 +5577,8 @@
 					<Product secType="OPT"/>
 					<Boolean>false</Boolean>
 					<Product secType="WAR"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 				</ProductPreferenceMap>
 				<HomeExchangeGroup varName="homeExchangeGroup" shortName="CHSTK" longName="Switzerland Stocks" isGroup="true">
@@ -5182,9 +5590,9 @@
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 					<Product secType="IND"/>
 					<Boolean>false</Boolean>
@@ -5193,14 +5601,44 @@
 					<exchangeType>INDEX</exchangeType>
 				</HomeExchangeGroup>
 			</ProductPreferences>
+			<HomeExchangeGroup shortName="TOM" longName="TOM MTF" isGroup="false">
+				<exchangeType>FUTURE</exchangeType>
+			</HomeExchangeGroup>
+			<ProductPreferences>
+				<ProductPreferenceMap varName="preferred">
+					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
+					<Boolean>false</Boolean>
+				</ProductPreferenceMap>
+				<HomeExchangeGroup varName="homeExchangeGroup" shortName="TOM" longName="TOM MTF" isGroup="false">
+					<exchangeType>FUTURE</exchangeType>
+				</HomeExchangeGroup>
+			</ProductPreferences>
+			<HomeExchangeGroup shortName="RUSSELL" longName="Exchange for Russell Indices" isGroup="false">
+				<exchangeType>INDEX</exchangeType>
+			</HomeExchangeGroup>
+			<ProductPreferences>
+				<ProductPreferenceMap varName="preferred">
+					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
+					<Boolean>false</Boolean>
+					<Product secType="IND"/>
+					<Boolean>false</Boolean>
+				</ProductPreferenceMap>
+				<HomeExchangeGroup varName="homeExchangeGroup" shortName="RUSSELL" longName="Exchange for Russell Indices" isGroup="false">
+					<exchangeType>INDEX</exchangeType>
+				</HomeExchangeGroup>
+			</ProductPreferences>
 			<HomeExchangeGroup shortName="MATIF" longName="Marche A Terme d&apos;Instruments Financiers" isGroup="false">
 				<exchangeType>INDEX</exchangeType>
 			</HomeExchangeGroup>
 			<ProductPreferences>
 				<ProductPreferenceMap varName="preferred">
-					<Product secType="FUT"/>
-					<Boolean>false</Boolean>
 					<Product secType="OPT"/>
+					<Boolean>false</Boolean>
+					<Product secType="FUT"/>
 					<Boolean>false</Boolean>
 					<Product secType="IND"/>
 					<Boolean>false</Boolean>
